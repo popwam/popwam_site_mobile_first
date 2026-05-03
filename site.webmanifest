@@ -1,9 +1,1 @@
-{
-  "name": "POPWAM",
-  "short_name": "POPWAM",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#070b13",
-  "theme_color": "#070b13",
-  "icons": []
-}
+{"name":"POPWAM","short_name":"POPWAM","start_url":"/","display":"standalone","background_color":"#070b13","theme_color":"#070b13","icons":[{"src":"/assets/img/logo.svg","sizes":"any","type":"image/svg+xml"}]}
