@@ -1,0 +1,10 @@
+# POPWAM
+
+POPWAM is a software company building lightweight websites, landing pages, mobile apps, and business systems.
+
+Important pages:
+- /services/
+- /portfolio/
+- /contact/
+
+Project case studies are available under /projects/project-01/ to /projects/project-30/.

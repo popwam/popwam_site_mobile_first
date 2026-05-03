@@ -1,0 +1,6 @@
+const $=(s,c=document)=>c.querySelector(s);const $$=(s,c=document)=>[...c.querySelectorAll(s)];
+const menu=$('#menuBtn'),mobile=$('#mobileNav');if(menu&&mobile){menu.onclick=()=>mobile.classList.toggle('open')}
+const y=$('#year');if(y)y.textContent=new Date().getFullYear();
+function card(p){return `<article class="card project"><div class="thumb" aria-hidden="true">${String(p.id).padStart(2,'0')}</div><div><div class="meta">${p.category}</div><h3>${p.title}</h3><p>${p.summary}</p><div class="chips">${p.stack.map(s=>`<span class="chip">${s}</span>`).join('')}</div><div class="project-actions"><a class="btn ghost" href="/projects/${p.slug}/">Case Study</a><a class="btn primary" href="${p.demoUrl}" target="_blank" rel="noopener">Demo</a></div></div></article>`}
+const wrap=$('#projectsGrid');if(wrap&&window.POPWAM_PROJECTS){wrap.innerHTML=window.POPWAM_PROJECTS.map(card).join('')}
+const home=$('#homeProjects');if(home&&window.POPWAM_PROJECTS){home.innerHTML=window.POPWAM_PROJECTS.slice(0,6).map(card).join('')}
