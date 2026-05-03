@@ -1,27 +1,191 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
-  {% include "_head.html" %}
-<body>
-  {% include "_nav.html" %}
-  <main class="container">
-    <h1 data-i18n="contact.title">تواصل معنا</h1>
-    <form id="contactForm" class="form">
-      <label>
-        <span data-i18n="contact.name">الاسم</span>
-        <input type="text" name="name" required />
-      </label>
-      <label>
-        <span data-i18n="contact.email">البريد الإلكتروني</span>
-        <input type="email" name="email" required />
-      </label>
-      <label>
-        <span data-i18n="contact.message">رسالتك</span>
-        <textarea name="msg" rows="5" required></textarea>
-      </label>
-      <button type="submit" class="btn" data-i18n="contact.send">أرسل</button>
-    </form>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>تواصل | POPWAM</title>
+    <meta name="description" content="ابدأ مع POPWAM من خلال نموذج Brief سريع أو واتساب أو البريد لتجهيز تصور للموقع أو النظام أو الحملة المناسبة.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0f1115">
+    <link rel="canonical" href="https://popwam.com/contact/">
+    <link rel="alternate" hreflang="ar" href="https://popwam.com/contact/">
+    <link rel="alternate" hreflang="en" href="https://popwam.com/en/contact/">
+    <link rel="alternate" hreflang="x-default" href="https://popwam.com/contact/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="تواصل | POPWAM">
+    <meta property="og:description" content="ابدأ مع POPWAM من خلال نموذج Brief سريع أو واتساب أو البريد لتجهيز تصور للموقع أو النظام أو الحملة المناسبة.">
+    <meta property="og:url" content="https://popwam.com/contact/">
+    <meta property="og:site_name" content="POPWAM">
+    <meta property="og:image" content="https://popwam.com/assets/img/project-placeholder.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="تواصل | POPWAM">
+    <meta name="twitter:description" content="ابدأ مع POPWAM من خلال نموذج Brief سريع أو واتساب أو البريد لتجهيز تصور للموقع أو النظام أو الحملة المناسبة.">
+    <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"POPWAM","url":"https://popwam.com","logo":"https://popwam.com/assets/img/logo.svg","email":"hello@popwam.com","telephone":"+20 103 366 2881","areaServed":"MENA","address":{"@type":"PostalAddress","addressLocality":"القاهرة، مصر"}},{"@type":"WebPage","name":"https://popwam.com/contact/","url":"https://popwam.com/contact/","inLanguage":"ar","description":"ابدأ مع POPWAM من خلال نموذج Brief سريع أو واتساب أو البريد لتجهيز تصور للموقع أو النظام أو الحملة المناسبة."},{"@type":"ContactPage","url":"https://popwam.com/contact/","inLanguage":"ar"}]}</script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">اذهب إلى المحتوى</a>
+    
+    <header class="site-header">
+      <div class="shell">
+        <div class="nav-bar">
+          <a class="brand" href="/" aria-label="POPWAM">
+            <span class="brand-mark"><img src="/assets/img/logo.svg" alt="POPWAM logo" width="42" height="42"></span>
+            <span class="brand-copy">
+              <span class="brand-title">POPWAM</span>
+              <span class="brand-subtitle">مواقع وأنظمة تبيع</span>
+            </span>
+          </a>
+          <nav class="nav-links" aria-label="روابط أساسية">
+            <a class="nav-link" href="/">الرئيسية</a><a class="nav-link" href="/about/">من نحن</a><a class="nav-link" href="/services/">الخدمات</a><a class="nav-link" href="/portfolio/">الأعمال</a><a class="nav-link" href="/process/">آلية العمل</a><a class="nav-link" href="/contact/" aria-current="page">تواصل</a>
+          </nav>
+          <div class="nav-actions">
+            <a class="lang-switch" href="/en/contact/">EN</a>
+            <a class="button-accent button" href="/contact/">اطلب عرض سعر</a>
+            <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 7l8 4 8-4-8-4Z"/><path d="M4 12l8 4 8-4"/><path d="M4 17l8 4 8-4"/></svg>
+              <span>القائمة</span>
+            </button>
+          </div>
+        </div>
+        <div class="mobile-nav" id="mobile-nav" data-mobile-nav hidden>
+          <nav class="mobile-nav-links" aria-label="القائمة المحمولة">
+            <a href="/">الرئيسية</a><a href="/about/">من نحن</a><a href="/services/">الخدمات</a><a href="/portfolio/">الأعمال</a><a href="/process/">آلية العمل</a><a href="/contact/" aria-current="page">تواصل</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+  
+    <main id="main" class="main-content">
+    <div class="shell">
+      <section class="hero-card reveal">
+        <span class="eyebrow">تواصل مباشر</span>
+        <h1 class="hero-title">أرسل Brief مختصر وسنحوّله إلى تصور تنفيذي</h1>
+        <p class="hero-text">هذا الموقع Static، لذلك النموذج لا يحتاج Backend. بعد الإرسال نفتح لك رسالة واتساب جاهزة بالمعلومات حتى نبدأ بسرعة ومن غير تعقيد.</p>
+      </section>
+
+      <section class="section-block">
+        <div class="contact-grid">
+          <div class="card-stack">
+            
+  <article class="contact-card reveal">
+    <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18 3 21V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6Z"/><path d="M8 10h8"/><path d="M8 14h5"/></svg></span>
+    <div class="card-stack">
+      <h3 class="mini-title">واتساب</h3>
+      <p class="card-text">للرد السريع، تحديد الاحتياج، وتجهيز أول تصور.</p>
+    </div>
+  </article>
+
+  <article class="contact-card reveal">
+    <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m5 7 7 5 7-5"/></svg></span>
+    <div class="card-stack">
+      <h3 class="mini-title">البريد</h3>
+      <p class="card-text">مناسب للعروض الرسمية والملفات وروابط النماذج المرجعية.</p>
+    </div>
+  </article>
+
+  <article class="contact-card reveal">
+    <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M10 5.5h4"/><path d="M11 18.5h2"/></svg></span>
+    <div class="card-stack">
+      <h3 class="mini-title">مكالمة تعريفية</h3>
+      <p class="card-text">إذا كان المطلوب System أو أكثر من مسار تنفيذ معًا.</p>
+    </div>
+  </article>
+
+            <div class="faq-grid">
+              
+                    <details class="faq-item reveal">
+                      <summary>هل يمكن البدء بموقع سريع ثم التطوير لاحقًا؟</summary>
+                      <p>نعم. هذه من أفضل طرق التنفيذ. نبدأ بطبقة Static سريعة وواضحة ثم نضيف CRM أو تطبيق أو Automation حسب الحاجة.</p>
+                    </details>
+                  
+                    <details class="faq-item reveal">
+                      <summary>هل POPWAM تعمل فقط على البرمجة؟</summary>
+                      <p>لا. التغطية تشمل المحتوى، UX، البنية، SEO، الإيميل، الاستضافة، والتحويلات الإعلانية إذا كان ذلك ضمن الهدف.</p>
+                    </details>
+                  
+                    <details class="faq-item reveal">
+                      <summary>هل هذا مناسب للشركات الصغيرة والمتوسطة؟</summary>
+                      <p>نعم، خصوصًا عندما يحتاج النشاط لواجهة قوية لكن لا يريد تعقيدًا تشغيليًا أو ميزانية Backend من اليوم الأول.</p>
+                    </details>
+                  
+            </div>
+          </div>
+
+          <form class="contact-form reveal" data-brief-form data-wa-number="201033662881">
+            <div class="card-stack">
+              <h2 class="mini-title">أرسل Brief سريع</h2>
+              <p class="card-text">يمكنك أيضًا التواصل بالبريد إذا كان المشروع يحتاج تفاصيل أو ملفات إضافية.</p>
+            </div>
+            <div class="input-grid">
+              <div class="field">
+                <label for="name">الاسم</label>
+                <input id="name" name="name" type="text" required>
+              </div>
+              <div class="field">
+                <label for="company">الشركة أو النشاط</label>
+                <input id="company" name="company" type="text">
+              </div>
+              <div class="field">
+                <label for="email">البريد الإلكتروني</label>
+                <input id="email" name="email" type="email">
+              </div>
+              <div class="field">
+                <label for="service">الخدمة المطلوبة</label>
+                <select id="service" name="service">
+                  <option value=""></option>
+                  <option value="مواقع و Landing Pages">مواقع و Landing Pages</option><option value="CRM وأنظمة تشغيل">CRM وأنظمة تشغيل</option><option value="تطبيقات Flutter">تطبيقات Flutter</option><option value="WordPress + Firebase">WordPress + Firebase</option><option value="SEO وهيكلة المحتوى">SEO وهيكلة المحتوى</option><option value="ترحيل البريد المؤسسي">ترحيل البريد المؤسسي</option><option value="Servers وHosting وDNS">Servers وHosting وDNS</option><option value="Automation">Automation</option><option value="Google Ads Campaigns">Google Ads Campaigns</option><option value="تقارير وتحليلات تنفيذية">تقارير وتحليلات تنفيذية</option>
+                </select>
+              </div>
+              <div class="field full">
+                <label for="timeline">التوقيت المتوقع</label>
+                <input id="timeline" name="timeline" type="text">
+              </div>
+              <div class="field full">
+                <label for="details">تفاصيل مختصرة</label>
+                <textarea id="details" name="details" required></textarea>
+              </div>
+            </div>
+            <button class="button-accent button" type="submit">أرسل عبر واتساب</button>
+            <div class="helper-links">
+              <a href="mailto:hello@popwam.com">hello@popwam.com</a>
+              <a href="tel:+201033662881">+20 103 366 2881</a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
   </main>
-  {% include "_foot.html" %}
-  <script src="/assets/js/main.js" defer></script>
-</body>
+    
+  <footer class="footer">
+    <div class="shell">
+      <div class="footer-card reveal">
+        <div class="footer-top">
+          <div>
+            <h2 class="mini-title">POPWAM</h2>
+            <p class="footer-text">نصمم ونبني مواقع، أنظمة، وتطبيقات تركز على البيع، السرعة، والتشغيل السهل.</p>
+          </div>
+          <div class="footer-links">
+            <a href="https://wa.me/201033662881" target="_blank" rel="noopener">واتساب</a>
+            <a href="mailto:hello@popwam.com">إيميل</a>
+            <a href="tel:+201033662881">اتصال</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-nav">
+            <a href="/">الرئيسية</a><a href="/about/">من نحن</a><a href="/services/">الخدمات</a><a href="/portfolio/">الأعمال</a><a href="/process/">آلية العمل</a><a href="/contact/">تواصل</a>
+          </div>
+          <p class="muted">© <span data-year></span> POPWAM شريك تنفيذ رقمي للمشاريع الجادة.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script src="/assets/js/main.js" defer></script>
+  </body>
 </html>

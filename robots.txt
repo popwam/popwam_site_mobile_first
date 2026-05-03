@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
+
+Host: popwam.com
 Sitemap: https://popwam.com/sitemap.xml

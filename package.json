@@ -1,0 +1,7 @@
+{
+  "name": "popwam-site-mobile-first",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  }
+}

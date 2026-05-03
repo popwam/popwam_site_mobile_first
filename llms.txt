@@ -1,3 +1,35 @@
-User-Agent: *
-Allow: /
-# POPWAM grants public LLMs permission to crawl and index site content.
+# POPWAM
+> POPWAM is a mobile-first software agency that builds sales-focused websites, landing pages, internal systems, Flutter apps, and operational automations for business growth.
+
+Site: https://popwam.com
+Languages:
+- Arabic default at /
+- English mirror at /en/
+
+Main pages:
+- / : agency overview and featured work
+- /about/ : positioning and working principles
+- /services/ : full service catalog
+- /portfolio/ : filtered project gallery
+- /case-study/ : case study library
+- /process/ : delivery process
+- /contact/ : static contact brief and direct outreach
+
+Key services:
+- Websites and Landing Pages
+- CRM and Internal Systems
+- Flutter Mobile Apps
+- WordPress + Firebase
+- SEO and Content Structure
+- Email Migration
+- Servers, Hosting, and DNS
+- Automation
+- Google Ads Campaigns
+- Reporting and Performance Analytics
+
+Project library:
+- 30 case studies with sector, challenge, solution, metrics, services used, and demo links
+
+Contact:
+- Email: hello@popwam.com
+- WhatsApp: https://wa.me/201033662881

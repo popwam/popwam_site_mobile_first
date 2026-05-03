@@ -1,1 +1,15 @@
-{"name":"POPWAM","short_name":"POPWAM","start_url":"/","display":"standalone","background_color":"#070b13","theme_color":"#070b13","icons":[{"src":"/assets/img/logo.svg","sizes":"any","type":"image/svg+xml"}]}
+{
+  "name": "POPWAM",
+  "short_name": "POPWAM",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f6f0",
+  "theme_color": "#0f1115",
+  "icons": [
+    {
+      "src": "/assets/img/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ]
+}

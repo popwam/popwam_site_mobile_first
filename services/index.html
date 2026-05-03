@@ -1,16 +1,240 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
-<head>
-  {% include "_meta.html" %}
-  <title data-i18n="services.meta.title">خدماتنا | POPWAM</title>
-</head>
-<body>
-  {% include "_nav.html" %}
-  <main class="container">
-    <h1 data-i18n="services.title">خدماتنا</h1>
-    <div class="grid icons" id="servicesList"></div>
-  </main>
-  {% include "_foot.html" %}
-  <script src="/assets/js/main.js" defer></script>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>الخدمات | POPWAM</title>
+    <meta name="description" content="خدمات POPWAM تشمل المواقع، الأنظمة، Flutter، WordPress + Firebase، SEO، ترحيل الإيميل، السيرفرات، DNS، Automation، وحملات Google Ads.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0f1115">
+    <link rel="canonical" href="https://popwam.com/services/">
+    <link rel="alternate" hreflang="ar" href="https://popwam.com/services/">
+    <link rel="alternate" hreflang="en" href="https://popwam.com/en/services/">
+    <link rel="alternate" hreflang="x-default" href="https://popwam.com/services/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="الخدمات | POPWAM">
+    <meta property="og:description" content="خدمات POPWAM تشمل المواقع، الأنظمة، Flutter، WordPress + Firebase، SEO، ترحيل الإيميل، السيرفرات، DNS، Automation، وحملات Google Ads.">
+    <meta property="og:url" content="https://popwam.com/services/">
+    <meta property="og:site_name" content="POPWAM">
+    <meta property="og:image" content="https://popwam.com/assets/img/project-placeholder.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="الخدمات | POPWAM">
+    <meta name="twitter:description" content="خدمات POPWAM تشمل المواقع، الأنظمة، Flutter، WordPress + Firebase، SEO، ترحيل الإيميل، السيرفرات، DNS، Automation، وحملات Google Ads.">
+    <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"POPWAM","url":"https://popwam.com","logo":"https://popwam.com/assets/img/logo.svg","email":"hello@popwam.com","telephone":"+20 103 366 2881","areaServed":"MENA","address":{"@type":"PostalAddress","addressLocality":"القاهرة، مصر"}},{"@type":"WebPage","name":"https://popwam.com/services/","url":"https://popwam.com/services/","inLanguage":"ar","description":"خدمات POPWAM تشمل المواقع، الأنظمة، Flutter، WordPress + Firebase، SEO، ترحيل الإيميل، السيرفرات، DNS، Automation، وحملات Google Ads."},{"@type":"ItemList","name":"خدمات POPWAM","itemListElement":[{"@type":"ListItem","position":1,"name":"مواقع و Landing Pages"},{"@type":"ListItem","position":2,"name":"CRM وأنظمة تشغيل"},{"@type":"ListItem","position":3,"name":"تطبيقات Flutter"},{"@type":"ListItem","position":4,"name":"WordPress + Firebase"},{"@type":"ListItem","position":5,"name":"SEO وهيكلة المحتوى"},{"@type":"ListItem","position":6,"name":"ترحيل البريد المؤسسي"},{"@type":"ListItem","position":7,"name":"Servers وHosting وDNS"},{"@type":"ListItem","position":8,"name":"Automation"},{"@type":"ListItem","position":9,"name":"Google Ads Campaigns"},{"@type":"ListItem","position":10,"name":"تقارير وتحليلات تنفيذية"}]}]}</script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">اذهب إلى المحتوى</a>
+    
+    <header class="site-header">
+      <div class="shell">
+        <div class="nav-bar">
+          <a class="brand" href="/" aria-label="POPWAM">
+            <span class="brand-mark"><img src="/assets/img/logo.svg" alt="POPWAM logo" width="42" height="42"></span>
+            <span class="brand-copy">
+              <span class="brand-title">POPWAM</span>
+              <span class="brand-subtitle">مواقع وأنظمة تبيع</span>
+            </span>
+          </a>
+          <nav class="nav-links" aria-label="روابط أساسية">
+            <a class="nav-link" href="/">الرئيسية</a><a class="nav-link" href="/about/">من نحن</a><a class="nav-link" href="/services/" aria-current="page">الخدمات</a><a class="nav-link" href="/portfolio/">الأعمال</a><a class="nav-link" href="/process/">آلية العمل</a><a class="nav-link" href="/contact/">تواصل</a>
+          </nav>
+          <div class="nav-actions">
+            <a class="lang-switch" href="/en/services/">EN</a>
+            <a class="button-accent button" href="/contact/">اطلب عرض سعر</a>
+            <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 7l8 4 8-4-8-4Z"/><path d="M4 12l8 4 8-4"/><path d="M4 17l8 4 8-4"/></svg>
+              <span>القائمة</span>
+            </button>
+          </div>
+        </div>
+        <div class="mobile-nav" id="mobile-nav" data-mobile-nav hidden>
+          <nav class="mobile-nav-links" aria-label="القائمة المحمولة">
+            <a href="/">الرئيسية</a><a href="/about/">من نحن</a><a href="/services/" aria-current="page">الخدمات</a><a href="/portfolio/">الأعمال</a><a href="/process/">آلية العمل</a><a href="/contact/">تواصل</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+  
+    <main id="main" class="main-content">
+  <div class="shell">
+    <section class="hero-card reveal">
+      <div class="split-grid">
+        <div class="card-stack">
+          <span class="eyebrow">خدمات POPWAM</span>
+          <h1 class="hero-title">خدمات تبني الواجهة وتدعم التشغيل بعد الإطلاق</h1>
+          <p class="hero-text">كل خدمة مصممة بحيث تسد فجوة حقيقية في المبيعات أو التشغيل أو تجربة العميل، وليس مجرد تنفيذ تقني منفصل.</p>
+        </div>
+        <aside class="panel">
+          <div class="card-stack">
+            <h2 class="mini-title">طرق التعاون</h2>
+            <div class="card-list">
+              
+                    <div>
+                      <h3 class="mini-title">Sprint تنفيذي</h3>
+                      <p class="card-text">لصفحة هبوط أو موقع أو MVP سريع بزمن واضح ومخرجات محددة.</p>
+                    </div>
+                  
+                    <div>
+                      <h3 class="mini-title">مسار بناء نظام</h3>
+                      <p class="card-text">عندما تحتاج CRM أو لوحة تشغيل أو تدفق Automation متكامل.</p>
+                    </div>
+                  
+                    <div>
+                      <h3 class="mini-title">دعم نمو مستمر</h3>
+                      <p class="card-text">SEO وتحسينات Conversion وإعلانات وصيانة تشغيلية بعد الإطلاق.</p>
+                    </div>
+                  
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-block">
+      
+  <header class="section-head reveal">
+    
+    <h2 class="section-title">كل الخدمات</h2>
+    
+  </header>
+
+      <div class="service-grid">
+        
+  <article class="service-card reveal">
+    <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 8h18"/><path d="M8 12h8"/><path d="M8 16h5"/></svg></span>
+    <div class="card-stack">
+      <h3 class="mini-title">مواقع و Landing Pages</h3>
+      <p class="card-text">مواقع تعريفية وتجارية وصفحات هبوط مصممة لتقود العميل إلى خطوة واضحة.</p>
+      <ul class="bullet-list"><li>Mobile First وواجهة أقرب لفكرة App</li><li>صفحات خدمة ومبيعات ومقارنات وعروض</li><li>نصوص وCTA وهيكل Conversion واضح</li></ul>
+      <p class="card-text">أفضل عندما تريد واجهة سريعة، نظيفة، وسهلة الإرسال للعملاء.</p>
+    </div>
+  </article>
+
+  <article class="service-card reveal">
+    <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6"/><path d="M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg></span>
+    <div class="card-stack">
+      <h3 class="mini-title">CRM وأنظمة تشغيل</h3>
+      <p class="card-text">أنظمة مخصصة لإدارة العملاء، المبيعات، المتابعة، أو العمليات الداخلية.</p>
+      <ul class="bullet-list"><li>لوحات Dashboard واضحة للمدير والفريق</li><li>صلاحيات وأدوار ونماذج إدخال عملية</li><li>ربط مع بريد، واتساب، أو أدوات خارجية</li></ul>
+      <p class="card-text">يقلل العمل اليدوي ويوحد المعلومات بدل التشتيت بين ملفات وأدوات مختلفة.</p>
+    </div>
+  </article>
+
+  <article class="service-card reveal">
+    <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M10 5.5h4"/><path d="M11 18.5h2"/></svg></span>
+    <div class="card-stack">
+      <h3 class="mini-title">تطبيقات Flutter</h3>
+      <p class="card-text">تطبيقات موبايل سريعة للبائعين أو العملاء أو فرق التشغيل.</p>
+      <ul class="bullet-list"><li>MVP عملي سريع الإطلاق</li><li>واجهات محسنة للهواتف منذ البداية</li><li>ربط مع Firebase أو APIs حسب الحاجة</li></ul>
+      <p class="card-text">مفيد عندما تحتاج تجربة Mobile حقيقية بدل موقع فقط.</p>
+    </div>
+  </article>
+
+  <article class="service-card reveal">
+    <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 7l8 4 8-4-8-4Z"/><path d="M4 12l8 4 8-4"/><path d="M4 17l8 4 8-4"/></svg></span>
+    <div class="card-stack">
+      <h3 class="mini-title">WordPress + Firebase</h3>
+      <p class="card-text">حلول هجينة تجمع سهولة إدارة المحتوى مع طبقات بيانات أو أعضاء أو صلاحيات.</p>
+      <ul class="bullet-list"><li>واجهات محتوى سهلة التسليم للفريق</li><li>ربط Forms وأعضاء وبيانات حية</li><li>مناسب للمنصات الصغيرة والمتوسطة</li></ul>
+      <p class="card-text">خيار جيد عندما تحتاج تحديث المحتوى باستمرار مع وظائف أبعد من WordPress التقليدي.</p>
+    </div>
+  </article>
+
+  <article class="service-card reveal">
+    <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.2-4.2"/></svg></span>
+    <div class="card-stack">
+      <h3 class="mini-title">SEO وهيكلة المحتوى</h3>
+      <p class="card-text">تهيئة المحتوى والصفحات والروابط والـ Schema لتحسين الظهور العضوي.</p>
+      <ul class="bullet-list"><li>Meta tags وSchema وClean URLs</li><li>محتوى خدمات وFAQ وتوزيع كلمات منطقي</li><li>جاهزية لفهرسة محركات البحث وLLMs</li></ul>
+      <p class="card-text">يجعل الموقع أصلًا تسويقيًا طويل المدى بدل مجرد حملة وقتية.</p>
+    </div>
+  </article>
+
+  <article class="service-card reveal">
+    <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m5 7 7 5 7-5"/></svg></span>
+    <div class="card-stack">
+      <h3 class="mini-title">ترحيل البريد المؤسسي</h3>
+      <p class="card-text">نقل البريد بين Google Workspace وZoho وMicrosoft 365 بدون فوضى تشغيلية.</p>
+      <ul class="bullet-list"><li>تجهيز الدومين والسجلات وDNS</li><li>تقسيم الحسابات والفرق والصلاحيات</li><li>اختبار التسليم والـ SPF وDKIM وDMARC</li></ul>
+      <p class="card-text">مهم للشركات التي تريد بريدًا موثوقًا بدون توقف أو ضياع رسائل.</p>
+    </div>
+  </article>
+
+  <article class="service-card reveal">
+    <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="6" rx="2"/><rect x="4" y="14" width="16" height="6" rx="2"/><path d="M8 7h.01"/><path d="M8 17h.01"/><path d="M12 7h5"/><path d="M12 17h5"/></svg></span>
+    <div class="card-stack">
+      <h3 class="mini-title">Servers وHosting وDNS</h3>
+      <p class="card-text">تجهيز الاستضافة، CDN، الحماية، الدومينات، وسجلات البريد والموقع.</p>
+      <ul class="bullet-list"><li>Cloudflare وتهيئة DNS عملية</li><li>تحسين السرعة والاعتمادية</li><li>ربط النطاقات والخدمات الفرعية بسهولة</li></ul>
+      <p class="card-text">يعطي المشروع أساسًا ثابتًا بدل مشاكل نشر ودومينات متكررة.</p>
+    </div>
+  </article>
+
+  <article class="service-card reveal">
+    <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h6"/><path d="M14 7h6"/><path d="M7 7v10"/><path d="M17 7v4"/><path d="M7 17h10"/><circle cx="7" cy="7" r="2"/><circle cx="17" cy="7" r="2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></span>
+    <div class="card-stack">
+      <h3 class="mini-title">Automation</h3>
+      <p class="card-text">أتمتة تحويلات العملاء والتنبيهات والتحديثات وربط الأدوات اليومية.</p>
+      <ul class="bullet-list"><li>ربط Forms وCRM وإيميل وتقارير</li><li>تقليل المتابعة اليدوية المتكررة</li><li>مسارات موافقة أو إشعارات داخلية</li></ul>
+      <p class="card-text">يفيد الفرق الصغيرة التي تحتاج سرعة أعلى بدون توظيف إضافي مبكرًا.</p>
+    </div>
+  </article>
+
+  <article class="service-card reveal">
+    <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h3l9-5v10l-9-5H4v-0Z"/><path d="M7 12v6a2 2 0 0 0 2 2h1"/></svg></span>
+    <div class="card-stack">
+      <h3 class="mini-title">Google Ads Campaigns</h3>
+      <p class="card-text">إعداد صفحات ورسائل تحويل وحملات تستفيد من بنية الموقع والبيانات.</p>
+      <ul class="bullet-list"><li>تنسيق الرسائل بين الإعلان والصفحة</li><li>تتبع تحويلات وربطها بنتائج التشغيل</li><li>اختبار عروض وخدمات ورسائل متعددة</li></ul>
+      <p class="card-text">أنسب عندما تريد حملات مدفوعة مبنية على صفحة مصممة أصلًا للتحويل.</p>
+    </div>
+  </article>
+
+  <article class="service-card reveal">
+    <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19h16"/><path d="M7 15v-4"/><path d="M12 15V7"/><path d="M17 15v-7"/></svg></span>
+    <div class="card-stack">
+      <h3 class="mini-title">تقارير وتحليلات تنفيذية</h3>
+      <p class="card-text">عرض الأرقام المهمة في لوحات مفهومة للإدارة والمبيعات والتشغيل.</p>
+      <ul class="bullet-list"><li>تقارير استفسارات وتحويلات ومصادر</li><li>لوحات متابعة للحملات أو الفرق</li><li>مؤشرات تساعد على القرار لا مجرد عرض بيانات</li></ul>
+      <p class="card-text">تحول الأرقام إلى قرارات أسرع بدل انتظار تقارير يدوية متأخرة.</p>
+    </div>
+  </article>
+
+      </div>
+    </section>
+  </div>
+</main>
+    
+  <footer class="footer">
+    <div class="shell">
+      <div class="footer-card reveal">
+        <div class="footer-top">
+          <div>
+            <h2 class="mini-title">POPWAM</h2>
+            <p class="footer-text">نصمم ونبني مواقع، أنظمة، وتطبيقات تركز على البيع، السرعة، والتشغيل السهل.</p>
+          </div>
+          <div class="footer-links">
+            <a href="https://wa.me/201033662881" target="_blank" rel="noopener">واتساب</a>
+            <a href="mailto:hello@popwam.com">إيميل</a>
+            <a href="tel:+201033662881">اتصال</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-nav">
+            <a href="/">الرئيسية</a><a href="/about/">من نحن</a><a href="/services/">الخدمات</a><a href="/portfolio/">الأعمال</a><a href="/process/">آلية العمل</a><a href="/contact/">تواصل</a>
+          </div>
+          <p class="muted">© <span data-year></span> POPWAM شريك تنفيذ رقمي للمشاريع الجادة.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script src="/assets/js/main.js" defer></script>
+  </body>
 </html>
