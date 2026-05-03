@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://popwam.com/</loc></url>
-<url><loc>https://popwam.com/about/</loc></url>
-<url><loc>https://popwam.com/services/</loc></url>
-<url><loc>https://popwam.com/portfolio/</loc></url>
-<url><loc>https://popwam.com/process/</loc></url>
-<url><loc>https://popwam.com/contact/</loc></url>
-<url><loc>https://popwam.com/case-study/</loc></url>
+  <url><loc>https://popwam.com/</loc></url>
+  <url><loc>https://popwam.com/services/</loc></url>
+  <url><loc>https://popwam.com/portfolio/</loc></url>
+  <url><loc>https://popwam.com/process/</loc></url>
+  <url><loc>https://popwam.com/contact/</loc></url>
 </urlset>

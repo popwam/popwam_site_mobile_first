@@ -1,27 +1,60 @@
-(function(){
- const $=(s,root=document)=>root.querySelector(s), $$=(s,root=document)=>Array.from(root.querySelectorAll(s));
- const lang=localStorage.getItem('popwam_lang')||((navigator.language||'en').startsWith('ar')?'ar':'en');
- function t(k){return (window.I18N[lang]&&window.I18N[lang][k])||window.I18N.en[k]||k}
- function applyLang(){document.documentElement.lang=lang;document.body.dir=t('dir');$$('[data-i18n]').forEach(el=>{el.textContent=t(el.dataset.i18n)});const btn=$('#langBtn');if(btn)btn.textContent=lang==='ar'?'EN':'AR'; const y=$('#year');if(y)y.textContent=new Date().getFullYear();}
- window.POPWAM_T=t; window.POPWAM_LANG=lang;
- document.addEventListener('DOMContentLoaded',()=>{applyLang(); const m=$('#menuBtn'),nav=$('#mobileNav'); if(m&&nav)m.onclick=()=>nav.classList.toggle('open'); const lb=$('#langBtn'); if(lb)lb.onclick=()=>{localStorage.setItem('popwam_lang',lang==='ar'?'en':'ar');location.reload()}; renderServices(); renderProjects(); renderCase();});
- const services=[
-  ['🌐','Websites & Corporate Profiles','مواقع وبروفايلات الشركات','Professional company websites, service pages and modern presentation websites built for trust, speed and SEO.','مواقع تعريفية احترافية وصفحات خدمات وعرض حديث للشركات بسرعة وثقة وسيو.'],
-  ['🚀','Landing Pages','صفحات الهبوط','Campaign pages for Google Ads, real estate offers, WhatsApp clicks, calls and lead generation.','صفحات حملات لجوجل أدز والعقارات وواتساب والمكالمات وجمع العملاء المحتملين.'],
-  ['🏢','Real Estate Websites','مواقع عقارية','Projects, developers, areas, units, payment plans, forms, WhatsApp and CRM connection.','مشاريع ومطورين ومناطق ووحدات وأنظمة سداد ونماذج وربط واتساب وCRM.'],
-  ['📊','CRM & Business Systems','CRM وأنظمة الشركات','CRM, HR, dashboards, lead management, permissions, reports and operational systems.','CRM وHR ولوحات تحكم وإدارة عملاء وصلاحيات وتقارير وأنظمة تشغيل داخلية.'],
-  ['📱','Mobile Applications','تطبيقات موبايل','Android and iOS apps using Flutter with scalable architecture, Firebase and APIs.','تطبيقات Android و iOS باستخدام Flutter مع Firebase و APIs وهيكلة قابلة للتوسع.'],
-  ['✉️','Email Migration & Business Mail','نقل الإيميلات وبريد الشركات','Google Workspace, Zoho Mail, Microsoft 365, DNS, MX, SPF, DKIM and DMARC setup.','إعداد Google Workspace وZoho وMicrosoft 365 و DNS و MX و SPF و DKIM و DMARC.'],
-  ['🖥️','Servers, Hosting & Domains','السيرفرات والاستضافة والدومينات','Hosting, VPS, SSL, DNS, Cloudflare, GitHub Pages and production deployment.','استضافة وVPS وSSL وDNS وCloudflare وGitHub Pages وتجهيز الإنتاج.'],
-  ['⚙️','Automation Workflows','الأتمتة','Forms, emails, leads, CRM updates, notifications, reports, Zapier, Make and integrations.','نماذج وإيميلات وLeads وتحديث CRM وإشعارات وتقارير وZapier وMake وربط الأنظمة.'],
-  ['📢','Google Ads Campaigns','حملات Google Ads','Campaign structure, keywords, landing pages, conversion tracking and performance improvement.','هيكلة حملات وكلمات مفتاحية وصفحات هبوط وتتبع تحويلات وتحسين الأداء.'],
-  ['🔎','SEO & AI Search Optimization','SEO وتحسين الظهور للذكاء الصناعي','Sitemap, robots, Schema, llms.txt, metadata, speed and AI-friendly content.','Sitemap وrobots وSchema وllms.txt وبيانات وصفية وسرعة وهيكلة محتوى AI-friendly.'],
-  ['🧩','WordPress Development','تطوير WordPress','Custom themes, ACF, CPT, WooCommerce, speed optimization and easy content management.','قوالب مخصصة وACF وCPT وWooCommerce وتحسين سرعة وإدارة سهلة.'],
-  ['🎨','UI/UX Design','تصميم UI/UX','Clear interfaces for websites, apps and dashboards focused on usability and conversion.','واجهات واضحة للمواقع والتطبيقات ولوحات التحكم مع تركيز على الاستخدام والتحويل.']
- ];
- function renderServices(){const wrap=$('#servicesGrid'); if(!wrap)return; wrap.innerHTML=services.map(s=>`<article class="card"><div class="icon">${s[0]}</div><h3>${lang==='ar'?s[2]:s[1]}</h3><p>${lang==='ar'?s[4]:s[3]}</p></article>`).join('')}
- function ptext(v){return typeof v==='object'?(v[lang]||v.en):v}
- function imgPath(p){return (p.image||'assets/img/project-placeholder.svg').replace(/^assets\//,'/assets/')}
- function renderProjects(){const wrap=$('#projectsGrid'); if(!wrap||!window.POPWAM_PROJECTS)return; wrap.innerHTML=window.POPWAM_PROJECTS.map(p=>`<article class="card project"><img loading="lazy" src="${imgPath(p)}" alt="${ptext(p.title)}"><div class="project-body"><span class="badge">${p.category}</span><h3>${ptext(p.title)}</h3><p>${ptext(p.description)}</p><div class="tags">${(p.tech||[]).slice(0,4).map(x=>`<span class="tag">${x}</span>`).join('')}</div><div class="hero-actions" style="margin-top:16px"><a class="btn primary" href="${p.demoUrl||'#'}" target="_blank" rel="noopener">${t('demo')}</a><a class="btn ghost" href="/case-study/?id=${encodeURIComponent(p.slug)}">${t('details')}</a></div></div></article>`).join('')}
- function renderCase(){const root=$('#caseRoot'); if(!root||!window.POPWAM_PROJECTS)return; const id=new URLSearchParams(location.search).get('id')||window.POPWAM_PROJECTS[0].slug; const p=window.POPWAM_PROJECTS.find(x=>x.slug===id)||window.POPWAM_PROJECTS[0]; document.title=ptext(p.title)+' | POPWAM Case Study'; root.innerHTML=`<section class="case-hero"><div class="container"><a class="btn ghost" href="/portfolio/">← ${t('back')}</a><h1>${ptext(p.title)}</h1><p class="lead">${ptext(p.description)}</p><div class="hero-actions"><a class="btn primary" href="${p.demoUrl||'#'}" target="_blank" rel="noopener">${t('demo')}</a></div></div></section><section class="section"><div class="container grid two"><div><div class="casebox"><h3>${t('type')}</h3><p class="muted">${ptext(p.type)} — ${p.category}</p></div><div class="casebox"><h3>${t('challenge')}</h3><p>${ptext(p.challenge)}</p></div><div class="casebox"><h3>${t('solution')}</h3><p>${ptext(p.solution)}</p></div><div class="casebox"><h3>${t('experience')}</h3><p>${ptext(p.experience)}</p></div><div class="casebox"><h3>${t('result')}</h3><p>${ptext(p.result)}</p></div></div><aside class="casebox"><img src="${imgPath(p)}" alt="${ptext(p.title)}" style="width:100%;border-radius:18px"><h3>${t('tech')}</h3><div class="tags">${(p.tech||[]).map(x=>`<span class="tag">${x}</span>`).join('')}</div></aside></div></section>`;}
-})();
+// year
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// schema injection (org)
+const orgSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    'name': 'POPWAM',
+    'url': 'https://popwam.com',
+    'logo': 'https://popwam.com/assets/images/logo.svg',
+    'sameAs': ['https://github.com/popwam', 'https://linkedin.com/company/popwam']
+};
+document.getElementById('org-schema').textContent = JSON.stringify(orgSchema);
+
+// translations
+const translations = {
+    ar: {
+        'meta.title': 'POPWAM | برمجة و تحول رقمي',
+        'meta.description': 'وكالة برمجيات مصرية تقدّم مواقع، تطبيقات، وأنظمة مخصّصة للنمو السريع.',
+        'nav.home': 'الرئيسية', 'nav.services': 'الخدمات', 'nav.portfolio': 'الأعمال', 'nav.process': 'المنهجية', 'nav.contact': 'تواصل',
+        'home.hero_h1': 'نحو مستقبل رقمي لشركتك', 'home.hero_p': 'نحن نبني مواقع وأنظمة تسرّع نموّك وتجذب العملاء',
+        'cta.contact': 'ابدأ الآن',
+        'services.title': 'خدماتنا', 'portfolio.title': 'مشاريعنا', 'process.title': 'منهجية العمل', 'contact.title': 'تواصل معنا', 'contact.name': 'الاسم', 'contact.email': 'البريد الإلكتروني', 'contact.message': 'رسالتك', 'contact.send': 'أرسل'
+    },
+    en: {
+        'meta.title': 'POPWAM | Software & Digital Transformation',
+        'meta.description': 'Egyptian tech agency delivering custom websites, apps & systems for rapid growth.',
+        'nav.home': 'Home', 'nav.services': 'Services', 'nav.portfolio': 'Portfolio', 'nav.process': 'Process', 'nav.contact': 'Contact',
+        'home.hero_h1': 'Digitally Accelerate Your Business', 'home.hero_p': 'We build sites & systems that boost your growth and attract customers',
+        'cta.contact': 'Let’s Start',
+        'services.title': 'Our Services', 'portfolio.title': 'Our Work', 'process.title': 'Our Process', 'contact.title': 'Get in Touch', 'contact.name': 'Name', 'contact.email': 'Email', 'contact.message': 'Message', 'contact.send': 'Send'
+    }
+};
+
+function setLang(lang) {
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.getElementById('langToggle').textContent = lang === 'ar' ? 'EN' : 'ع';
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang][key]) el.textContent = translations[lang][key];
+    });
+}
+setLang('ar');
+
+document.getElementById('langToggle').addEventListener('click', () => {
+    const current = document.documentElement.lang;
+    setLang(current === 'ar' ? 'en' : 'ar');
+});
+
+// load services
+const services = [
+    { icon: '💻', key: 'web', title: { ar: 'مواقع وتطبيقات ويب', en: 'Web & Landing pages' }, desc: { ar: 'مواقع تجارية سريعة...', en: 'High‑performance websites…' } },
+    { icon: '📱', key: 'mobile', title: { ar: 'تطبيقات موبايل', en: 'Mobile Apps' }, desc: { ar: 'تطبيقات Flutter...', en: 'Flutter apps…' } },
+    { icon: '🗄️', key: 'crm', title: { ar: 'أنظمة CRM', en: 'CRM / Systems' }, desc: { ar: 'أنظمة مخصصة...', en: 'Custom back‑office systems…' } },
+    { icon: '⚙️', key: 'automation', title: { ar: 'أتمتة', en: 'Automation' }, desc: { ar: 'تكامل Zapier ...', en: 'Zapier integrations…' } },
+    { icon: '📈', key: 'seo', title: { ar: 'سيو وتحسين أداء', en: 'SEO & Performance' }, desc: { ar: 'تحسين محركات البحث...', en: 'Search Engine Optimization…' } },
+    { icon: '✉️', key: 'email', title: { ar: 'ترحيل الإيميل', en: 'Email Migration' }, desc: { ar: 'Google Workspace, Zoho...', en: 'G‑Workspace, Zoho, M365…' } },
+]
+renderProjects();

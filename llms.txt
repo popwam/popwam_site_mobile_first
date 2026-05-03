@@ -1,8 +1,3 @@
-# POPWAM
-POPWAM is a software company providing websites, landing pages, mobile applications, CRM systems, WordPress development, Firebase systems, email migration, server setup, automation workflows, Google Ads campaigns, SEO, performance optimization and AI-ready content structure.
-
-Key pages:
-- /services/ lists all services.
-- /portfolio/ lists projects and case studies.
-- /case-study/?id=project-slug provides project details.
-- /contact/ provides contact options.
+User-Agent: *
+Allow: /
+# POPWAM grants public LLMs permission to crawl and index site content.

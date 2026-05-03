@@ -1,1 +1,27 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contact POPWAM | Start Your Project</title><meta name="description" content="Contact POPWAM for websites, apps, CRM, email migration, hosting, automation, Google Ads, SEO and software solutions."><link rel="canonical" href="https://popwam.com/contact/"><meta property="og:title" content="Contact POPWAM | Start Your Project"><meta property="og:description" content="Contact POPWAM for websites, apps, CRM, email migration, hosting, automation, Google Ads, SEO and software solutions."><meta property="og:url" content="https://popwam.com/contact/"><meta property="og:type" content="website"><meta name="theme-color" content="#070b13"><link rel="manifest" href="/site.webmanifest"><link rel="icon" href="/assets/img/logo.svg"><link rel="preload" href="/assets/css/style.css" as="style"><link rel="stylesheet" href="/assets/css/style.css"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"POPWAM","url":"https://popwam.com","logo":"https://popwam.com/assets/img/logo.svg","sameAs":[],"contactPoint":{"@type":"ContactPoint","contactType":"sales","telephone":"+201033662881"}}</script></head><body><a class="skip" href="#main">Skip to content</a><nav class="nav"><div class="container navin"><a class="logo" href="/"><img src="/assets/img/logo.svg" alt="POPWAM logo"></a><div class="links"><a href="/about/" data-i18n="nav_about">About</a><a href="/services/" data-i18n="nav_services">Services</a><a href="/portfolio/" data-i18n="nav_portfolio">Portfolio</a><a href="/process/" data-i18n="nav_process">Process</a><a href="/contact/" data-i18n="nav_contact">Contact</a></div><div class="actions"><button class="lang" id="langBtn">AR</button><button class="menu" id="menuBtn" data-i18n="menu">Menu</button></div></div><div class="container mobile" id="mobileNav"><a href="/about/" data-i18n="nav_about">About</a><a href="/services/" data-i18n="nav_services">Services</a><a href="/portfolio/" data-i18n="nav_portfolio">Portfolio</a><a href="/process/" data-i18n="nav_process">Process</a><a href="/contact/" data-i18n="nav_contact">Contact</a></div></nav><main id="main"><section class="section"><div class="container grid two"><div><h1 data-i18n="contact_title">Contact POPWAM</h1><p class="lead" data-i18n="contact_sub">Tell us about your project and we will help you choose the right technical direction.</p><div class="hero-actions"><a class="btn primary" href="https://wa.me/201033662881" target="_blank" rel="noopener">WhatsApp</a><a class="btn ghost" href="mailto:hello@popwam.com">hello@popwam.com</a></div></div><form class="panel form" action="mailto:hello@popwam.com" method="post" enctype="text/plain"><input class="input" name="name" placeholder="Name"><input class="input" name="email" placeholder="Email"><input class="input" name="service" placeholder="Service needed"><textarea name="message" placeholder="Project details"></textarea><button class="btn primary" type="submit">Send</button></form></div></section></main><a class="float" href="https://wa.me/201033662881" target="_blank" rel="noopener" data-i18n="whatsapp">WhatsApp</a><footer class="footer"><div class="container">© <span id="year"></span> <span data-i18n="footer">POPWAM. Fast digital products for business growth.</span></div></footer><script src="/assets/js/i18n.js" defer></script><script src="/assets/js/projects-data.js" defer></script><script src="/assets/js/main.js" defer></script></body></html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  {% include "_head.html" %}
+<body>
+  {% include "_nav.html" %}
+  <main class="container">
+    <h1 data-i18n="contact.title">تواصل معنا</h1>
+    <form id="contactForm" class="form">
+      <label>
+        <span data-i18n="contact.name">الاسم</span>
+        <input type="text" name="name" required />
+      </label>
+      <label>
+        <span data-i18n="contact.email">البريد الإلكتروني</span>
+        <input type="email" name="email" required />
+      </label>
+      <label>
+        <span data-i18n="contact.message">رسالتك</span>
+        <textarea name="msg" rows="5" required></textarea>
+      </label>
+      <button type="submit" class="btn" data-i18n="contact.send">أرسل</button>
+    </form>
+  </main>
+  {% include "_foot.html" %}
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
