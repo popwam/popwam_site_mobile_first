@@ -154,12 +154,11 @@ textarea {
 }
 
 .brand-mark {
-  width: 42px;
+  width: 160px;
   height: 42px;
   border-radius: 14px;
   overflow: hidden;
   flex-shrink: 0;
-  box-shadow: 0 12px 22px rgba(17, 19, 24, 0.12);
 }
 
 .brand-copy {
@@ -279,9 +278,23 @@ textarea {
   font-size: 0.86rem;
 }
 
+.menu-toggle svg {
+  width: 24px;
+  height: 24px;
+  display: block;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
 .menu-toggle {
-  position: relative;
-  z-index: 21;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  color: inherit;
+  padding: 8px;
+  cursor: pointer;
 }
 
 .mobile-nav {
@@ -391,8 +404,8 @@ textarea {
 }
 
 .hero-title {
-  max-width: 12ch;
-  font-size: clamp(2.3rem, 10vw, 4.9rem);
+  max-width: 120ch;
+  font-size: clamp(2rem, 5vw + 1rem, 4rem);
 }
 
 .hero-text,
@@ -406,7 +419,8 @@ textarea {
 }
 
 .hero-text {
-  max-width: 65ch;
+  margin-top: 0.4rem !important;
+  max-width: 66ch;
   font-size: 1rem;
 }
 
@@ -427,6 +441,35 @@ textarea {
 
 .trust-list {
   margin-top: 24px;
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.chip {
+  display: inline-block;
+  padding: 6px 14px;
+  background: rgba(255, 255, 255, 0.1);
+  /* خلفية بيضاء شفافة */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  /* حدود خفيفة */
+  border-radius: 100px;
+  /* شكل بيضاوي */
+  color: #ffffff;
+  /* لون نص أبيض صريح */
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.card-stack:not(.hero-panel) .chip {
+  background: #f0f0f0;
+  color: #333;
+  border: 1px solid #ddd;
 }
 
 .trust-pill,
@@ -469,6 +512,8 @@ textarea {
 .hero-panel {
   background: linear-gradient(180deg, var(--surface-dark) 0%, var(--surface-dark-2) 100%);
   color: #fff;
+  display: flex;
+  align-items: center;
 }
 
 .hero-panel .section-title,
@@ -488,7 +533,12 @@ textarea {
 }
 
 .stats-grid {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
+  margin-top: min(24px, 5vh);
+  /* هذا هو السر: سيدفع الإحصائيات والـ chips للقاع */
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  /* توزيع الثلاث قيم بجانب بعضهم */
 }
 
 .metric-card {
@@ -524,7 +574,7 @@ textarea {
 }
 
 .section-title {
-  font-size: clamp(1.65rem, 6vw, 3rem);
+  font-size: clamp(1.4rem, 3.8vw + 0.4rem, 2.3rem);
 }
 
 .section-text {
@@ -565,12 +615,14 @@ textarea {
 }
 
 .mini-title {
-  font-size: 1.22rem;
+  font-size: 1.02rem;
 }
 
 .card-stack {
-  display: grid;
-  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
 }
 
 .card-list,
@@ -610,7 +662,7 @@ textarea {
   overflow: hidden;
 }
 
-.project-card > * {
+.project-card>* {
   position: relative;
   z-index: 1;
 }
@@ -928,7 +980,7 @@ body.nav-open {
   }
 }
 
-@media (min-width: 980px) {
+@media (min-width: 1020px) {
   .nav-links {
     display: flex;
   }
