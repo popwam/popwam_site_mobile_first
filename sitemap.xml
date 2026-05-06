@@ -1,77 +1,855 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://popwam.com/</loc></url>
-  <url><loc>https://popwam.com/about/</loc></url>
-  <url><loc>https://popwam.com/case-study/</loc></url>
-  <url><loc>https://popwam.com/case-study/academy-learning-hub/</loc></url>
-  <url><loc>https://popwam.com/case-study/ads-roi-dashboard/</loc></url>
-  <url><loc>https://popwam.com/case-study/b2b-proposal-hub/</loc></url>
-  <url><loc>https://popwam.com/case-study/beauty-clinic-funnel/</loc></url>
-  <url><loc>https://popwam.com/case-study/blueharbor-launch-page/</loc></url>
-  <url><loc>https://popwam.com/case-study/brokerhub-crm/</loc></url>
-  <url><loc>https://popwam.com/case-study/clinic-booking-pro/</loc></url>
-  <url><loc>https://popwam.com/case-study/compound-scout-app/</loc></url>
-  <url><loc>https://popwam.com/case-study/contractor-project-portal/</loc></url>
-  <url><loc>https://popwam.com/case-study/corporate-brand-refresh/</loc></url>
-  <url><loc>https://popwam.com/case-study/dental-branch-site/</loc></url>
-  <url><loc>https://popwam.com/case-study/event-ticketing-app/</loc></url>
-  <url><loc>https://popwam.com/case-study/executive-profile-site/</loc></url>
-  <url><loc>https://popwam.com/case-study/hiring-automation-flow/</loc></url>
-  <url><loc>https://popwam.com/case-study/hotel-booking-suite/</loc></url>
-  <url><loc>https://popwam.com/case-study/lab-booking-system/</loc></url>
-  <url><loc>https://popwam.com/case-study/law-firm-intake-site/</loc></url>
-  <url><loc>https://popwam.com/case-study/logistics-control-tower/</loc></url>
-  <url><loc>https://popwam.com/case-study/manufacturing-erp-lite/</loc></url>
-  <url><loc>https://popwam.com/case-study/medical-funnel-campaign/</loc></url>
-  <url><loc>https://popwam.com/case-study/membership-portal-wpfb/</loc></url>
-  <url><loc>https://popwam.com/case-study/multi-branch-email-migration/</loc></url>
-  <url><loc>https://popwam.com/case-study/ngo-donation-landing/</loc></url>
-  <url><loc>https://popwam.com/case-study/prime-estates-platform/</loc></url>
-  <url><loc>https://popwam.com/case-study/rental-ops-dashboard/</loc></url>
-  <url><loc>https://popwam.com/case-study/restaurant-qr-ordering/</loc></url>
-  <url><loc>https://popwam.com/case-study/retail-ops-dashboard/</loc></url>
-  <url><loc>https://popwam.com/case-study/school-parent-portal/</loc></url>
-  <url><loc>https://popwam.com/case-study/telehealth-mobile-suite/</loc></url>
-  <url><loc>https://popwam.com/case-study/tutor-booking-app/</loc></url>
-  <url><loc>https://popwam.com/contact/</loc></url>
-  <url><loc>https://popwam.com/en/</loc></url>
-  <url><loc>https://popwam.com/en/about/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/academy-learning-hub/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/ads-roi-dashboard/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/b2b-proposal-hub/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/beauty-clinic-funnel/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/blueharbor-launch-page/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/brokerhub-crm/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/clinic-booking-pro/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/compound-scout-app/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/contractor-project-portal/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/corporate-brand-refresh/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/dental-branch-site/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/event-ticketing-app/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/executive-profile-site/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/hiring-automation-flow/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/hotel-booking-suite/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/lab-booking-system/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/law-firm-intake-site/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/logistics-control-tower/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/manufacturing-erp-lite/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/medical-funnel-campaign/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/membership-portal-wpfb/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/multi-branch-email-migration/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/ngo-donation-landing/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/prime-estates-platform/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/rental-ops-dashboard/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/restaurant-qr-ordering/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/retail-ops-dashboard/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/school-parent-portal/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/telehealth-mobile-suite/</loc></url>
-  <url><loc>https://popwam.com/en/case-study/tutor-booking-app/</loc></url>
-  <url><loc>https://popwam.com/en/contact/</loc></url>
-  <url><loc>https://popwam.com/en/portfolio/</loc></url>
-  <url><loc>https://popwam.com/en/process/</loc></url>
-  <url><loc>https://popwam.com/en/services/</loc></url>
-  <url><loc>https://popwam.com/portfolio/</loc></url>
-  <url><loc>https://popwam.com/process/</loc></url>
-  <url><loc>https://popwam.com/services/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://popwam.com/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/about/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/about/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/academy-learning-hub/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/academy-learning-hub/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/academy-learning-hub/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/academy-learning-hub/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/ads-roi-dashboard/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/ads-roi-dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/ads-roi-dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/ads-roi-dashboard/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/b2b-proposal-hub/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/b2b-proposal-hub/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/b2b-proposal-hub/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/b2b-proposal-hub/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/beauty-clinic-funnel/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/beauty-clinic-funnel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/beauty-clinic-funnel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/beauty-clinic-funnel/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/blueharbor-launch-page/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/blueharbor-launch-page/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/blueharbor-launch-page/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/blueharbor-launch-page/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/brokerhub-crm/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/brokerhub-crm/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/brokerhub-crm/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/brokerhub-crm/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/clinic-booking-pro/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/clinic-booking-pro/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/clinic-booking-pro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/clinic-booking-pro/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/compound-scout-app/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/compound-scout-app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/compound-scout-app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/compound-scout-app/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/contractor-project-portal/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/contractor-project-portal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/contractor-project-portal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/contractor-project-portal/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/corporate-brand-refresh/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/corporate-brand-refresh/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/corporate-brand-refresh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/corporate-brand-refresh/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/dental-branch-site/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/dental-branch-site/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/dental-branch-site/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/dental-branch-site/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/event-ticketing-app/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/event-ticketing-app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/event-ticketing-app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/event-ticketing-app/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/executive-profile-site/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/executive-profile-site/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/executive-profile-site/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/executive-profile-site/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/hiring-automation-flow/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/hiring-automation-flow/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/hiring-automation-flow/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/hiring-automation-flow/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/hotel-booking-suite/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/hotel-booking-suite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/hotel-booking-suite/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/hotel-booking-suite/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/lab-booking-system/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/lab-booking-system/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/lab-booking-system/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/lab-booking-system/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/law-firm-intake-site/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/law-firm-intake-site/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/law-firm-intake-site/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/law-firm-intake-site/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/logistics-control-tower/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/logistics-control-tower/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/logistics-control-tower/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/logistics-control-tower/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/manufacturing-erp-lite/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/manufacturing-erp-lite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/manufacturing-erp-lite/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/manufacturing-erp-lite/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/medical-funnel-campaign/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/medical-funnel-campaign/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/medical-funnel-campaign/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/medical-funnel-campaign/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/membership-portal-wpfb/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/membership-portal-wpfb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/membership-portal-wpfb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/membership-portal-wpfb/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/multi-branch-email-migration/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/multi-branch-email-migration/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/multi-branch-email-migration/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/multi-branch-email-migration/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/ngo-donation-landing/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/ngo-donation-landing/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/ngo-donation-landing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/ngo-donation-landing/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/prime-estates-platform/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/prime-estates-platform/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/prime-estates-platform/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/prime-estates-platform/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/rental-ops-dashboard/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/rental-ops-dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/rental-ops-dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/rental-ops-dashboard/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/restaurant-qr-ordering/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/restaurant-qr-ordering/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/restaurant-qr-ordering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/restaurant-qr-ordering/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/retail-ops-dashboard/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/retail-ops-dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/retail-ops-dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/retail-ops-dashboard/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/school-parent-portal/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/school-parent-portal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/school-parent-portal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/school-parent-portal/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/telehealth-mobile-suite/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/telehealth-mobile-suite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/telehealth-mobile-suite/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/telehealth-mobile-suite/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/case-study/tutor-booking-app/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/tutor-booking-app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/tutor-booking-app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/tutor-booking-app/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/contact/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/academy-learning-hub/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/ads-roi-dashboard/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/b2b-proposal-hub/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/beauty-clinic-funnel/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/blueharbor-launch-page/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/brokerhub-crm/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/clinic-booking-pro/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/compound-scout-app/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/contractor-project-portal/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/corporate-brand-refresh/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/dental-branch-site/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/event-ticketing-app/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/executive-profile-site/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/hiring-automation-flow/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/hotel-booking-suite/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/lab-booking-system/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/law-firm-intake-site/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/logistics-control-tower/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/manufacturing-erp-lite/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/medical-funnel-campaign/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/membership-portal-wpfb/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/multi-branch-email-migration/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/ngo-donation-landing/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/prime-estates-platform/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/rental-ops-dashboard/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/restaurant-qr-ordering/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/retail-ops-dashboard/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/school-parent-portal/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/telehealth-mobile-suite/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/demos/tutor-booking-app/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/about/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/about/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/academy-learning-hub/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/academy-learning-hub/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/academy-learning-hub/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/academy-learning-hub/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/ads-roi-dashboard/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/ads-roi-dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/ads-roi-dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/ads-roi-dashboard/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/b2b-proposal-hub/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/b2b-proposal-hub/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/b2b-proposal-hub/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/b2b-proposal-hub/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/beauty-clinic-funnel/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/beauty-clinic-funnel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/beauty-clinic-funnel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/beauty-clinic-funnel/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/blueharbor-launch-page/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/blueharbor-launch-page/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/blueharbor-launch-page/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/blueharbor-launch-page/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/brokerhub-crm/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/brokerhub-crm/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/brokerhub-crm/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/brokerhub-crm/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/clinic-booking-pro/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/clinic-booking-pro/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/clinic-booking-pro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/clinic-booking-pro/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/compound-scout-app/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/compound-scout-app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/compound-scout-app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/compound-scout-app/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/contractor-project-portal/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/contractor-project-portal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/contractor-project-portal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/contractor-project-portal/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/corporate-brand-refresh/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/corporate-brand-refresh/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/corporate-brand-refresh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/corporate-brand-refresh/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/dental-branch-site/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/dental-branch-site/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/dental-branch-site/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/dental-branch-site/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/event-ticketing-app/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/event-ticketing-app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/event-ticketing-app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/event-ticketing-app/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/executive-profile-site/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/executive-profile-site/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/executive-profile-site/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/executive-profile-site/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/hiring-automation-flow/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/hiring-automation-flow/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/hiring-automation-flow/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/hiring-automation-flow/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/hotel-booking-suite/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/hotel-booking-suite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/hotel-booking-suite/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/hotel-booking-suite/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/lab-booking-system/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/lab-booking-system/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/lab-booking-system/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/lab-booking-system/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/law-firm-intake-site/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/law-firm-intake-site/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/law-firm-intake-site/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/law-firm-intake-site/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/logistics-control-tower/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/logistics-control-tower/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/logistics-control-tower/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/logistics-control-tower/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/manufacturing-erp-lite/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/manufacturing-erp-lite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/manufacturing-erp-lite/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/manufacturing-erp-lite/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/medical-funnel-campaign/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/medical-funnel-campaign/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/medical-funnel-campaign/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/medical-funnel-campaign/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/membership-portal-wpfb/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/membership-portal-wpfb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/membership-portal-wpfb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/membership-portal-wpfb/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/multi-branch-email-migration/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/multi-branch-email-migration/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/multi-branch-email-migration/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/multi-branch-email-migration/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/ngo-donation-landing/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/ngo-donation-landing/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/ngo-donation-landing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/ngo-donation-landing/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/prime-estates-platform/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/prime-estates-platform/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/prime-estates-platform/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/prime-estates-platform/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/rental-ops-dashboard/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/rental-ops-dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/rental-ops-dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/rental-ops-dashboard/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/restaurant-qr-ordering/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/restaurant-qr-ordering/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/restaurant-qr-ordering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/restaurant-qr-ordering/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/retail-ops-dashboard/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/retail-ops-dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/retail-ops-dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/retail-ops-dashboard/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/school-parent-portal/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/school-parent-portal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/school-parent-portal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/school-parent-portal/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/telehealth-mobile-suite/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/telehealth-mobile-suite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/telehealth-mobile-suite/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/telehealth-mobile-suite/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/case-study/tutor-booking-app/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/case-study/tutor-booking-app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/case-study/tutor-booking-app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/case-study/tutor-booking-app/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/contact/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/portfolio/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/portfolio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/portfolio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/portfolio/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/process/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/process/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/process/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/process/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/en/services/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/services/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/services/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/portfolio/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/portfolio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/portfolio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/portfolio/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/process/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/process/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/process/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/process/"/>
+  </url>
+  <url>
+    <loc>https://popwam.com/services/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://popwam.com/services/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popwam.com/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popwam.com/services/"/>
+  </url>
 </urlset>

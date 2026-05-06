@@ -22,6 +22,49 @@
     <meta name="twitter:description" content="A lightweight CRM for lead tracking, appointments, reservation status, and mobile visit notes.">
     <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
     <link rel="manifest" href="/site.webmanifest">
+    <script>
+(function () {
+  var storageKey = "popwam_locale";
+  var targetLocale = "";
+
+  try {
+    var storedLocale = window.localStorage && window.localStorage.getItem(storageKey);
+    if (storedLocale === "ar" || storedLocale === "en") {
+      targetLocale = storedLocale;
+    }
+  } catch (error) {}
+
+  if (!targetLocale) {
+    var languages = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || navigator.userLanguage || ""];
+
+    for (var index = 0; index < languages.length; index += 1) {
+      var code = String(languages[index] || "").toLowerCase().split("-")[0];
+
+      if (code === "ar" || code === "en") {
+        targetLocale = code;
+        break;
+      }
+    }
+  }
+
+  if (!targetLocale) {
+    targetLocale = "en";
+  }
+
+  if (targetLocale === "en") {
+    return;
+  }
+
+  var targets = {"ar":"/case-study/brokerhub-crm/","en":"/en/case-study/brokerhub-crm/"};
+  var targetPath = targets[targetLocale];
+
+  if (!targetPath || window.location.pathname === targetPath) {
+    return;
+  }
+
+  window.location.replace(targetPath + window.location.search + window.location.hash);
+})();
+</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -77,7 +120,7 @@
             <h1 class="case-title">BrokerHub CRM for Property Brokers</h1>
             <p class="case-summary">A lightweight CRM for lead tracking, appointments, reservation status, and mobile visit notes.</p>
             <div class="case-actions">
-              <a class="button-accent button" href="https://demo.popwam.com/brokerhub-crm/" target="_blank" rel="noopener">Live demo</a>
+              <a class="button-accent button" href="/demos/brokerhub-crm/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
               <a class="button-ghost" href="/en/portfolio/">Back to portfolio</a>
             </div>
           </div>
@@ -180,7 +223,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/prime-estates-platform/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/prime-estates-platform/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/prime-estates-platform/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -200,7 +243,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/blueharbor-launch-page/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/blueharbor-launch-page/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/blueharbor-launch-page/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -220,7 +263,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/compound-scout-app/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/compound-scout-app/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/compound-scout-app/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   

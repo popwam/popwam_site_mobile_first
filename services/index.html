@@ -22,11 +22,54 @@
     <meta name="twitter:description" content="خدمات POPWAM تشمل المواقع، الأنظمة، Flutter، WordPress + Firebase، SEO، ترحيل الإيميل، السيرفرات، DNS، Automation، وحملات Google Ads.">
     <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
     <link rel="manifest" href="/site.webmanifest">
+    <script>
+(function () {
+  var storageKey = "popwam_locale";
+  var targetLocale = "";
+
+  try {
+    var storedLocale = window.localStorage && window.localStorage.getItem(storageKey);
+    if (storedLocale === "ar" || storedLocale === "en") {
+      targetLocale = storedLocale;
+    }
+  } catch (error) {}
+
+  if (!targetLocale) {
+    var languages = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || navigator.userLanguage || ""];
+
+    for (var index = 0; index < languages.length; index += 1) {
+      var code = String(languages[index] || "").toLowerCase().split("-")[0];
+
+      if (code === "ar" || code === "en") {
+        targetLocale = code;
+        break;
+      }
+    }
+  }
+
+  if (!targetLocale) {
+    targetLocale = "en";
+  }
+
+  if (targetLocale === "ar") {
+    return;
+  }
+
+  var targets = {"ar":"/services/","en":"/en/services/"};
+  var targetPath = targets[targetLocale];
+
+  if (!targetPath || window.location.pathname === targetPath) {
+    return;
+  }
+
+  window.location.replace(targetPath + window.location.search + window.location.hash);
+})();
+</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"POPWAM","url":"https://popwam.com","logo":"https://popwam.com/assets/img/logo.svg","email":"hello@popwam.com","telephone":"+20 103 366 2881","areaServed":"MENA","address":{"@type":"PostalAddress","addressLocality":"القاهرة، مصر"}},{"@type":"WebPage","name":"https://popwam.com/services/","url":"https://popwam.com/services/","inLanguage":"ar","description":"خدمات POPWAM تشمل المواقع، الأنظمة، Flutter، WordPress + Firebase، SEO، ترحيل الإيميل، السيرفرات، DNS، Automation، وحملات Google Ads."},{"@type":"ItemList","name":"خدمات POPWAM","itemListElement":[{"@type":"ListItem","position":1,"name":"مواقع و Landing Pages"},{"@type":"ListItem","position":2,"name":"CRM وأنظمة تشغيل"},{"@type":"ListItem","position":3,"name":"تطبيقات Flutter"},{"@type":"ListItem","position":4,"name":"WordPress + Firebase"},{"@type":"ListItem","position":5,"name":"SEO وهيكلة المحتوى"},{"@type":"ListItem","position":6,"name":"ترحيل البريد المؤسسي"},{"@type":"ListItem","position":7,"name":"Servers وHosting وDNS"},{"@type":"ListItem","position":8,"name":"Automation"},{"@type":"ListItem","position":9,"name":"Google Ads Campaigns"},{"@type":"ListItem","position":10,"name":"تقارير وتحليلات تنفيذية"}]}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"POPWAM","url":"https://popwam.com","logo":"https://popwam.com/assets/img/logo.svg","email":"hello@popwam.com","telephone":"+20 103 366 2881","areaServed":"MENA","address":{"@type":"PostalAddress","addressLocality":"القاهرة، مصر"}},{"@type":"WebPage","name":"https://popwam.com/services/","url":"https://popwam.com/services/","inLanguage":"ar","description":"خدمات POPWAM تشمل المواقع، الأنظمة، Flutter، WordPress + Firebase، SEO، ترحيل الإيميل، السيرفرات، DNS، Automation، وحملات Google Ads."},{"@type":"ItemList","name":"خدمات POPWAM","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Service","name":"مواقع و Landing Pages","description":"مواقع تعريفية وتجارية وصفحات هبوط مصممة لتقود العميل إلى خطوة واضحة.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"متوسط: 25,000 - 85,000 جنيه"}}}},{"@type":"ListItem","position":2,"item":{"@type":"Service","name":"CRM وأنظمة تشغيل","description":"أنظمة مخصصة لإدارة العملاء، المبيعات، المتابعة، أو العمليات الداخلية.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"متوسط: 60,000 - 220,000 جنيه"}}}},{"@type":"ListItem","position":3,"item":{"@type":"Service","name":"تطبيقات Flutter","description":"تطبيقات موبايل سريعة للبائعين أو العملاء أو فرق التشغيل.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"متوسط: 90,000 - 350,000 جنيه"}}}},{"@type":"ListItem","position":4,"item":{"@type":"Service","name":"WordPress + Firebase","description":"حلول هجينة تجمع سهولة إدارة المحتوى مع طبقات بيانات أو أعضاء أو صلاحيات.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"متوسط: 45,000 - 160,000 جنيه"}}}},{"@type":"ListItem","position":5,"item":{"@type":"Service","name":"SEO وهيكلة المحتوى","description":"تهيئة المحتوى والصفحات والروابط والـ Schema لتحسين الظهور العضوي.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"متوسط شهري: 15,000 - 55,000 جنيه"}}}},{"@type":"ListItem","position":6,"item":{"@type":"Service","name":"ترحيل البريد المؤسسي","description":"نقل البريد بين Google Workspace وZoho وMicrosoft 365 بدون فوضى تشغيلية.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"متوسط: 20,000 - 90,000 جنيه"}}}},{"@type":"ListItem","position":7,"item":{"@type":"Service","name":"Servers وHosting وDNS","description":"تجهيز الاستضافة، CDN، الحماية، الدومينات، وسجلات البريد والموقع.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"متوسط: 15,000 - 70,000 جنيه"}}}},{"@type":"ListItem","position":8,"item":{"@type":"Service","name":"Automation","description":"أتمتة تحويلات العملاء والتنبيهات والتحديثات وربط الأدوات اليومية.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"متوسط: 25,000 - 120,000 جنيه"}}}},{"@type":"ListItem","position":9,"item":{"@type":"Service","name":"Google Ads Campaigns","description":"إعداد صفحات ورسائل تحويل وحملات تستفيد من بنية الموقع والبيانات.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"إدارة شهرية: 12,000 - 45,000 جنيه"}}}},{"@type":"ListItem","position":10,"item":{"@type":"Service","name":"تقارير وتحليلات تنفيذية","description":"عرض الأرقام المهمة في لوحات مفهومة للإدارة والمبيعات والتشغيل.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"متوسط: 30,000 - 140,000 جنيه"}}}}]}]}</script>
   </head>
   <body>
     <a class="skip-link" href="#main">اذهب إلى المحتوى</a>
@@ -104,6 +147,7 @@
     
   </header>
 
+      <p class="pricing-note reveal">الأسعار التالية متوسطات إرشادية بالجنيه المصري، وتتغير حسب نطاق العمل والتكاملات والمحتوى المطلوب.</p>
       <div class="service-grid">
         
   <article class="service-card reveal">
@@ -111,6 +155,7 @@
     <div class="card-stack">
       <h3 class="mini-title">مواقع و Landing Pages</h3>
       <p class="card-text">مواقع تعريفية وتجارية وصفحات هبوط مصممة لتقود العميل إلى خطوة واضحة.</p>
+      <span class="price-pill">متوسط: 25,000 - 85,000 جنيه</span>
       <ul class="bullet-list"><li>Mobile First وواجهة أقرب لفكرة App</li><li>صفحات خدمة ومبيعات ومقارنات وعروض</li><li>نصوص وCTA وهيكل Conversion واضح</li></ul>
       <p class="card-text">أفضل عندما تريد واجهة سريعة، نظيفة، وسهلة الإرسال للعملاء.</p>
     </div>
@@ -121,6 +166,7 @@
     <div class="card-stack">
       <h3 class="mini-title">CRM وأنظمة تشغيل</h3>
       <p class="card-text">أنظمة مخصصة لإدارة العملاء، المبيعات، المتابعة، أو العمليات الداخلية.</p>
+      <span class="price-pill">متوسط: 60,000 - 220,000 جنيه</span>
       <ul class="bullet-list"><li>لوحات Dashboard واضحة للمدير والفريق</li><li>صلاحيات وأدوار ونماذج إدخال عملية</li><li>ربط مع بريد، واتساب، أو أدوات خارجية</li></ul>
       <p class="card-text">يقلل العمل اليدوي ويوحد المعلومات بدل التشتيت بين ملفات وأدوات مختلفة.</p>
     </div>
@@ -131,6 +177,7 @@
     <div class="card-stack">
       <h3 class="mini-title">تطبيقات Flutter</h3>
       <p class="card-text">تطبيقات موبايل سريعة للبائعين أو العملاء أو فرق التشغيل.</p>
+      <span class="price-pill">متوسط: 90,000 - 350,000 جنيه</span>
       <ul class="bullet-list"><li>MVP عملي سريع الإطلاق</li><li>واجهات محسنة للهواتف منذ البداية</li><li>ربط مع Firebase أو APIs حسب الحاجة</li></ul>
       <p class="card-text">مفيد عندما تحتاج تجربة Mobile حقيقية بدل موقع فقط.</p>
     </div>
@@ -141,6 +188,7 @@
     <div class="card-stack">
       <h3 class="mini-title">WordPress + Firebase</h3>
       <p class="card-text">حلول هجينة تجمع سهولة إدارة المحتوى مع طبقات بيانات أو أعضاء أو صلاحيات.</p>
+      <span class="price-pill">متوسط: 45,000 - 160,000 جنيه</span>
       <ul class="bullet-list"><li>واجهات محتوى سهلة التسليم للفريق</li><li>ربط Forms وأعضاء وبيانات حية</li><li>مناسب للمنصات الصغيرة والمتوسطة</li></ul>
       <p class="card-text">خيار جيد عندما تحتاج تحديث المحتوى باستمرار مع وظائف أبعد من WordPress التقليدي.</p>
     </div>
@@ -151,6 +199,7 @@
     <div class="card-stack">
       <h3 class="mini-title">SEO وهيكلة المحتوى</h3>
       <p class="card-text">تهيئة المحتوى والصفحات والروابط والـ Schema لتحسين الظهور العضوي.</p>
+      <span class="price-pill">متوسط شهري: 15,000 - 55,000 جنيه</span>
       <ul class="bullet-list"><li>Meta tags وSchema وClean URLs</li><li>محتوى خدمات وFAQ وتوزيع كلمات منطقي</li><li>جاهزية لفهرسة محركات البحث وLLMs</li></ul>
       <p class="card-text">يجعل الموقع أصلًا تسويقيًا طويل المدى بدل مجرد حملة وقتية.</p>
     </div>
@@ -161,6 +210,7 @@
     <div class="card-stack">
       <h3 class="mini-title">ترحيل البريد المؤسسي</h3>
       <p class="card-text">نقل البريد بين Google Workspace وZoho وMicrosoft 365 بدون فوضى تشغيلية.</p>
+      <span class="price-pill">متوسط: 20,000 - 90,000 جنيه</span>
       <ul class="bullet-list"><li>تجهيز الدومين والسجلات وDNS</li><li>تقسيم الحسابات والفرق والصلاحيات</li><li>اختبار التسليم والـ SPF وDKIM وDMARC</li></ul>
       <p class="card-text">مهم للشركات التي تريد بريدًا موثوقًا بدون توقف أو ضياع رسائل.</p>
     </div>
@@ -171,6 +221,7 @@
     <div class="card-stack">
       <h3 class="mini-title">Servers وHosting وDNS</h3>
       <p class="card-text">تجهيز الاستضافة، CDN، الحماية، الدومينات، وسجلات البريد والموقع.</p>
+      <span class="price-pill">متوسط: 15,000 - 70,000 جنيه</span>
       <ul class="bullet-list"><li>Cloudflare وتهيئة DNS عملية</li><li>تحسين السرعة والاعتمادية</li><li>ربط النطاقات والخدمات الفرعية بسهولة</li></ul>
       <p class="card-text">يعطي المشروع أساسًا ثابتًا بدل مشاكل نشر ودومينات متكررة.</p>
     </div>
@@ -181,6 +232,7 @@
     <div class="card-stack">
       <h3 class="mini-title">Automation</h3>
       <p class="card-text">أتمتة تحويلات العملاء والتنبيهات والتحديثات وربط الأدوات اليومية.</p>
+      <span class="price-pill">متوسط: 25,000 - 120,000 جنيه</span>
       <ul class="bullet-list"><li>ربط Forms وCRM وإيميل وتقارير</li><li>تقليل المتابعة اليدوية المتكررة</li><li>مسارات موافقة أو إشعارات داخلية</li></ul>
       <p class="card-text">يفيد الفرق الصغيرة التي تحتاج سرعة أعلى بدون توظيف إضافي مبكرًا.</p>
     </div>
@@ -191,6 +243,7 @@
     <div class="card-stack">
       <h3 class="mini-title">Google Ads Campaigns</h3>
       <p class="card-text">إعداد صفحات ورسائل تحويل وحملات تستفيد من بنية الموقع والبيانات.</p>
+      <span class="price-pill">إدارة شهرية: 12,000 - 45,000 جنيه</span>
       <ul class="bullet-list"><li>تنسيق الرسائل بين الإعلان والصفحة</li><li>تتبع تحويلات وربطها بنتائج التشغيل</li><li>اختبار عروض وخدمات ورسائل متعددة</li></ul>
       <p class="card-text">أنسب عندما تريد حملات مدفوعة مبنية على صفحة مصممة أصلًا للتحويل.</p>
     </div>
@@ -201,6 +254,7 @@
     <div class="card-stack">
       <h3 class="mini-title">تقارير وتحليلات تنفيذية</h3>
       <p class="card-text">عرض الأرقام المهمة في لوحات مفهومة للإدارة والمبيعات والتشغيل.</p>
+      <span class="price-pill">متوسط: 30,000 - 140,000 جنيه</span>
       <ul class="bullet-list"><li>تقارير استفسارات وتحويلات ومصادر</li><li>لوحات متابعة للحملات أو الفرق</li><li>مؤشرات تساعد على القرار لا مجرد عرض بيانات</li></ul>
       <p class="card-text">تحول الأرقام إلى قرارات أسرع بدل انتظار تقارير يدوية متأخرة.</p>
     </div>

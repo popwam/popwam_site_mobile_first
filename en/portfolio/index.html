@@ -22,6 +22,49 @@
     <meta name="twitter:description" content="Browse 30 POPWAM case studies across real estate, healthcare, education, corporate sites, and operations systems with demo links and used services.">
     <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
     <link rel="manifest" href="/site.webmanifest">
+    <script>
+(function () {
+  var storageKey = "popwam_locale";
+  var targetLocale = "";
+
+  try {
+    var storedLocale = window.localStorage && window.localStorage.getItem(storageKey);
+    if (storedLocale === "ar" || storedLocale === "en") {
+      targetLocale = storedLocale;
+    }
+  } catch (error) {}
+
+  if (!targetLocale) {
+    var languages = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || navigator.userLanguage || ""];
+
+    for (var index = 0; index < languages.length; index += 1) {
+      var code = String(languages[index] || "").toLowerCase().split("-")[0];
+
+      if (code === "ar" || code === "en") {
+        targetLocale = code;
+        break;
+      }
+    }
+  }
+
+  if (!targetLocale) {
+    targetLocale = "en";
+  }
+
+  if (targetLocale === "en") {
+    return;
+  }
+
+  var targets = {"ar":"/portfolio/","en":"/en/portfolio/"};
+  var targetPath = targets[targetLocale];
+
+  if (!targetPath || window.location.pathname === targetPath) {
+    return;
+  }
+
+  window.location.replace(targetPath + window.location.search + window.location.hash);
+})();
+</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -133,7 +176,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/prime-estates-platform/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/prime-estates-platform/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/prime-estates-platform/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -153,7 +196,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/brokerhub-crm/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/brokerhub-crm/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/brokerhub-crm/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -173,7 +216,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/blueharbor-launch-page/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/blueharbor-launch-page/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/blueharbor-launch-page/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -193,7 +236,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/compound-scout-app/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/compound-scout-app/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/compound-scout-app/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -213,7 +256,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/rental-ops-dashboard/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/rental-ops-dashboard/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/rental-ops-dashboard/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -233,7 +276,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/clinic-booking-pro/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/clinic-booking-pro/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/clinic-booking-pro/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -253,7 +296,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/dental-branch-site/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/dental-branch-site/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/dental-branch-site/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -273,7 +316,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/telehealth-mobile-suite/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/telehealth-mobile-suite/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/telehealth-mobile-suite/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -293,7 +336,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/lab-booking-system/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/lab-booking-system/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/lab-booking-system/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -313,7 +356,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/medical-funnel-campaign/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/medical-funnel-campaign/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/medical-funnel-campaign/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -333,7 +376,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/tutor-booking-app/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/tutor-booking-app/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/tutor-booking-app/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -353,7 +396,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/academy-learning-hub/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/academy-learning-hub/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/academy-learning-hub/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -373,7 +416,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/school-parent-portal/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/school-parent-portal/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/school-parent-portal/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -393,7 +436,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/executive-profile-site/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/executive-profile-site/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/executive-profile-site/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -413,7 +456,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/manufacturing-erp-lite/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/manufacturing-erp-lite/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/manufacturing-erp-lite/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -433,7 +476,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/law-firm-intake-site/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/law-firm-intake-site/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/law-firm-intake-site/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -453,7 +496,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/corporate-brand-refresh/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/corporate-brand-refresh/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/corporate-brand-refresh/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -473,7 +516,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/b2b-proposal-hub/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/b2b-proposal-hub/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/b2b-proposal-hub/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -493,7 +536,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/logistics-control-tower/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/logistics-control-tower/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/logistics-control-tower/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -513,7 +556,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/hotel-booking-suite/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/hotel-booking-suite/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/hotel-booking-suite/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -533,7 +576,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/restaurant-qr-ordering/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/restaurant-qr-ordering/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/restaurant-qr-ordering/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -553,7 +596,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/retail-ops-dashboard/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/retail-ops-dashboard/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/retail-ops-dashboard/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -573,7 +616,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/contractor-project-portal/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/contractor-project-portal/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/contractor-project-portal/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -593,7 +636,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/ads-roi-dashboard/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/ads-roi-dashboard/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/ads-roi-dashboard/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -613,7 +656,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/beauty-clinic-funnel/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/beauty-clinic-funnel/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/beauty-clinic-funnel/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -633,7 +676,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/ngo-donation-landing/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/ngo-donation-landing/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/ngo-donation-landing/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -653,7 +696,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/event-ticketing-app/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/event-ticketing-app/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/event-ticketing-app/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -673,7 +716,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/membership-portal-wpfb/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/membership-portal-wpfb/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/membership-portal-wpfb/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -693,7 +736,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/multi-branch-email-migration/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/multi-branch-email-migration/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/multi-branch-email-migration/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   
@@ -713,7 +756,7 @@
       </article>
       <div class="project-actions">
         <a class="button" href="/en/case-study/hiring-automation-flow/">Case study</a>
-        <a class="button-ghost" href="https://demo.popwam.com/hiring-automation-flow/" target="_blank" rel="noopener">Live demo</a>
+        <a class="button-ghost" href="/demos/hiring-automation-flow/" target="_blank" rel="noopener noreferrer" data-demo-link>Live demo</a>
       </div>
     </article>
   

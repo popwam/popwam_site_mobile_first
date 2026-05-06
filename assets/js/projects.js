@@ -758,7 +758,7 @@ const data = {
       ],
       services: ["web", "crm", "automation", "seo"],
       stack: ["HTML", "CSS", "JavaScript", "CRM Flow", "Cloudflare"],
-      demo: "https://demo.popwam.com/prime-estates-platform/",
+      demo: "/demos/prime-estates-platform/",
     },
     {
       slug: "brokerhub-crm",
@@ -790,7 +790,7 @@ const data = {
       ],
       services: ["crm", "automation", "analytics"],
       stack: ["JavaScript", "Firebase", "Spreadsheet Sync"],
-      demo: "https://demo.popwam.com/brokerhub-crm/",
+      demo: "/demos/brokerhub-crm/",
     },
     {
       slug: "blueharbor-launch-page",
@@ -822,7 +822,7 @@ const data = {
       ],
       services: ["web", "ads", "seo"],
       stack: ["HTML", "CSS", "JavaScript", "Google Ads"],
-      demo: "https://demo.popwam.com/blueharbor-launch-page/",
+      demo: "/demos/blueharbor-launch-page/",
     },
     {
       slug: "compound-scout-app",
@@ -854,7 +854,7 @@ const data = {
       ],
       services: ["mobile", "crm", "analytics"],
       stack: ["Flutter", "Firebase", "Push Notifications"],
-      demo: "https://demo.popwam.com/compound-scout-app/",
+      demo: "/demos/compound-scout-app/",
     },
     {
       slug: "rental-ops-dashboard",
@@ -886,7 +886,7 @@ const data = {
       ],
       services: ["crm", "automation", "analytics"],
       stack: ["JavaScript", "Firebase", "Email Alerts"],
-      demo: "https://demo.popwam.com/rental-ops-dashboard/",
+      demo: "/demos/rental-ops-dashboard/",
     },
     {
       slug: "clinic-booking-pro",
@@ -918,7 +918,7 @@ const data = {
       ],
       services: ["web", "automation", "seo"],
       stack: ["HTML", "CSS", "JavaScript", "Calendar Integration"],
-      demo: "https://demo.popwam.com/clinic-booking-pro/",
+      demo: "/demos/clinic-booking-pro/",
     },
     {
       slug: "dental-branch-site",
@@ -950,7 +950,7 @@ const data = {
       ],
       services: ["web", "seo", "ads"],
       stack: ["HTML", "CSS", "JavaScript"],
-      demo: "https://demo.popwam.com/dental-branch-site/",
+      demo: "/demos/dental-branch-site/",
     },
     {
       slug: "telehealth-mobile-suite",
@@ -982,7 +982,7 @@ const data = {
       ],
       services: ["mobile", "automation", "analytics"],
       stack: ["Flutter", "Firebase", "Secure Storage"],
-      demo: "https://demo.popwam.com/telehealth-mobile-suite/",
+      demo: "/demos/telehealth-mobile-suite/",
     },
     {
       slug: "lab-booking-system",
@@ -1014,7 +1014,7 @@ const data = {
       ],
       services: ["crm", "automation", "analytics"],
       stack: ["JavaScript", "Firebase", "Email/SMS Alerts"],
-      demo: "https://demo.popwam.com/lab-booking-system/",
+      demo: "/demos/lab-booking-system/",
     },
     {
       slug: "medical-funnel-campaign",
@@ -1046,7 +1046,7 @@ const data = {
       ],
       services: ["web", "ads", "seo", "automation"],
       stack: ["HTML", "CSS", "JavaScript", "Google Ads"],
-      demo: "https://demo.popwam.com/medical-funnel-campaign/",
+      demo: "/demos/medical-funnel-campaign/",
     },
     {
       slug: "tutor-booking-app",
@@ -1078,7 +1078,7 @@ const data = {
       ],
       services: ["mobile", "crm", "automation"],
       stack: ["Flutter", "Firebase", "Push Notifications"],
-      demo: "https://demo.popwam.com/tutor-booking-app/",
+      demo: "/demos/tutor-booking-app/",
     },
     {
       slug: "academy-learning-hub",
@@ -1110,7 +1110,7 @@ const data = {
       ],
       services: ["web", "seo", "ads"],
       stack: ["HTML", "CSS", "JavaScript"],
-      demo: "https://demo.popwam.com/academy-learning-hub/",
+      demo: "/demos/academy-learning-hub/",
     },
     {
       slug: "school-parent-portal",
@@ -1142,7 +1142,7 @@ const data = {
       ],
       services: ["wordpress-firebase", "automation", "seo"],
       stack: ["WordPress", "Firebase", "Cloudflare"],
-      demo: "https://demo.popwam.com/school-parent-portal/",
+      demo: "/demos/school-parent-portal/",
     },
     {
       slug: "executive-profile-site",
@@ -1174,7 +1174,7 @@ const data = {
       ],
       services: ["web", "seo", "analytics"],
       stack: ["HTML", "CSS", "JavaScript"],
-      demo: "https://demo.popwam.com/executive-profile-site/",
+      demo: "/demos/executive-profile-site/",
     },
     {
       slug: "manufacturing-erp-lite",
@@ -1206,7 +1206,7 @@ const data = {
       ],
       services: ["crm", "automation", "analytics"],
       stack: ["JavaScript", "Firebase", "Email Alerts"],
-      demo: "https://demo.popwam.com/manufacturing-erp-lite/",
+      demo: "/demos/manufacturing-erp-lite/",
     },
     {
       slug: "law-firm-intake-site",
@@ -1238,7 +1238,7 @@ const data = {
       ],
       services: ["web", "seo", "automation"],
       stack: ["HTML", "CSS", "JavaScript"],
-      demo: "https://demo.popwam.com/law-firm-intake-site/",
+      demo: "/demos/law-firm-intake-site/",
     },
     {
       slug: "corporate-brand-refresh",
@@ -1270,7 +1270,7 @@ const data = {
       ],
       services: ["web", "seo", "analytics"],
       stack: ["HTML", "CSS", "JavaScript"],
-      demo: "https://demo.popwam.com/corporate-brand-refresh/",
+      demo: "/demos/corporate-brand-refresh/",
     },
     {
       slug: "b2b-proposal-hub",
@@ -1302,7 +1302,7 @@ const data = {
       ],
       services: ["web", "automation", "analytics"],
       stack: ["HTML", "CSS", "JavaScript"],
-      demo: "https://demo.popwam.com/b2b-proposal-hub/",
+      demo: "/demos/b2b-proposal-hub/",
     },
     {
       slug: "logistics-control-tower",
@@ -1334,7 +1334,7 @@ const data = {
       ],
       services: ["crm", "automation", "analytics"],
       stack: ["JavaScript", "Firebase", "Map Integrations"],
-      demo: "https://demo.popwam.com/logistics-control-tower/",
+      demo: "/demos/logistics-control-tower/",
     },
     {
       slug: "hotel-booking-suite",
@@ -1366,7 +1366,7 @@ const data = {
       ],
       services: ["web", "seo", "ads"],
       stack: ["HTML", "CSS", "JavaScript"],
-      demo: "https://demo.popwam.com/hotel-booking-suite/",
+      demo: "/demos/hotel-booking-suite/",
     },
     {
       slug: "restaurant-qr-ordering",
@@ -1398,7 +1398,7 @@ const data = {
       ],
       services: ["web", "wordpress-firebase", "automation"],
       stack: ["WordPress", "JavaScript", "QR Flow"],
-      demo: "https://demo.popwam.com/restaurant-qr-ordering/",
+      demo: "/demos/restaurant-qr-ordering/",
     },
     {
       slug: "retail-ops-dashboard",
@@ -1430,7 +1430,7 @@ const data = {
       ],
       services: ["crm", "automation", "analytics"],
       stack: ["JavaScript", "Firebase", "Webhook Integrations"],
-      demo: "https://demo.popwam.com/retail-ops-dashboard/",
+      demo: "/demos/retail-ops-dashboard/",
     },
     {
       slug: "contractor-project-portal",
@@ -1462,7 +1462,7 @@ const data = {
       ],
       services: ["wordpress-firebase", "automation", "analytics"],
       stack: ["WordPress", "Firebase", "Cloud Storage"],
-      demo: "https://demo.popwam.com/contractor-project-portal/",
+      demo: "/demos/contractor-project-portal/",
     },
     {
       slug: "ads-roi-dashboard",
@@ -1494,7 +1494,7 @@ const data = {
       ],
       services: ["ads", "analytics", "automation"],
       stack: ["JavaScript", "Google Ads", "Reporting Layer"],
-      demo: "https://demo.popwam.com/ads-roi-dashboard/",
+      demo: "/demos/ads-roi-dashboard/",
     },
     {
       slug: "beauty-clinic-funnel",
@@ -1526,7 +1526,7 @@ const data = {
       ],
       services: ["web", "ads", "automation", "seo"],
       stack: ["HTML", "CSS", "JavaScript", "Google Ads"],
-      demo: "https://demo.popwam.com/beauty-clinic-funnel/",
+      demo: "/demos/beauty-clinic-funnel/",
     },
     {
       slug: "ngo-donation-landing",
@@ -1558,7 +1558,7 @@ const data = {
       ],
       services: ["web", "seo", "analytics"],
       stack: ["HTML", "CSS", "JavaScript"],
-      demo: "https://demo.popwam.com/ngo-donation-landing/",
+      demo: "/demos/ngo-donation-landing/",
     },
     {
       slug: "event-ticketing-app",
@@ -1590,7 +1590,7 @@ const data = {
       ],
       services: ["mobile", "automation", "analytics"],
       stack: ["Flutter", "Firebase", "QR Passes"],
-      demo: "https://demo.popwam.com/event-ticketing-app/",
+      demo: "/demos/event-ticketing-app/",
     },
     {
       slug: "membership-portal-wpfb",
@@ -1622,7 +1622,7 @@ const data = {
       ],
       services: ["wordpress-firebase", "automation", "analytics"],
       stack: ["WordPress", "Firebase", "JavaScript"],
-      demo: "https://demo.popwam.com/membership-portal-wpfb/",
+      demo: "/demos/membership-portal-wpfb/",
     },
     {
       slug: "multi-branch-email-migration",
@@ -1654,7 +1654,7 @@ const data = {
       ],
       services: ["email-migration", "infrastructure"],
       stack: ["Microsoft 365", "DNS", "Cloudflare"],
-      demo: "https://demo.popwam.com/multi-branch-email-migration/",
+      demo: "/demos/multi-branch-email-migration/",
     },
     {
       slug: "hiring-automation-flow",
@@ -1686,7 +1686,7 @@ const data = {
       ],
       services: ["automation", "analytics", "crm"],
       stack: ["JavaScript", "Email Alerts", "Workflow Logic"],
-      demo: "https://demo.popwam.com/hiring-automation-flow/",
+      demo: "/demos/hiring-automation-flow/",
     },
   ],
 };

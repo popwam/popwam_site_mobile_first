@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>POPWAM Demo Library</title>
+    <meta name="description" content="A local library of 30 POPWAM demo pages for internal server hosting.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#11141b">
+    <link rel="canonical" href="https://popwam.com/demos/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="POPWAM Demo Library">
+    <meta property="og:description" content="A local library of 30 POPWAM demo pages for internal server hosting.">
+    <meta property="og:url" content="https://popwam.com/demos/">
+    <meta property="og:image" content="https://popwam.com/demos/assets/img/project-placeholder.svg">
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/demos.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"POPWAM Demo Library","description":"A local library of 30 POPWAM demo pages for internal server hosting.","url":"https://popwam.com/demos/"}</script>
+  </head>
+  <body data-theme="aurora">
+    <header class="topbar">
+      <div class="shell topbar-inner">
+        <a class="brand" href="./" aria-label="POPWAM demos">
+          <img src="assets/img/logo.svg" alt="POPWAM logo" width="38" height="38">
+          <span>POPWAM Demos</span>
+        </a>
+        <nav class="nav-actions" aria-label="Demo navigation">
+          <a class="nav-link" href="./"><span data-i18n data-en="All demos" data-ar="كل الديموهات">All demos</span></a>
+          <a class="nav-link" href="../"><span data-i18n data-en="Main site" data-ar="الموقع الرئيسي">Main site</span></a>
+          <button class="button-secondary" type="button" data-copy-link><span data-i18n data-en="Copy link" data-ar="نسخ الرابط">Copy link</span></button>
+          <div class="control-group" aria-label="Language">
+            <button class="control-button is-active" type="button" data-lang="en">EN</button>
+            <button class="control-button" type="button" data-lang="ar">AR</button>
+          </div>
+          <div class="control-group" aria-label="Theme">
+            <button class="control-button is-active" type="button" data-theme-option="aurora">1</button>
+            <button class="control-button" type="button" data-theme-option="studio">2</button>
+            <button class="control-button" type="button" data-theme-option="night">3</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      
+    <section class="shell hero">
+      <div class="hero-copy">
+        <span class="eyebrow" data-i18n data-en="30 local interactive demos" data-ar="30 ديمو تفاعلي محلي">30 local interactive demos</span>
+        <h1 data-i18n data-en="Demo library ready for internal hosting" data-ar="مكتبة ديموهات جاهزة للسيرفر الداخلي">Demo library ready for internal hosting</h1>
+        <p data-i18n data-en="Every demo now behaves like a complete web experience with language switching, theme switching, forms, filters, tabs, and local assets." data-ar="كل ديمو يعمل كتجربة ويب كاملة مع تبديل اللغة والثيمات والفورمات والفلاتر والتبويبات وملفات محلية.">Every demo now behaves like a complete web experience with language switching, theme switching, forms, filters, tabs, and local assets.</p>
+        <div class="inline-actions">
+          <a class="button button-accent" href="#library"><span data-i18n data-en="Browse demos" data-ar="استعرض الديموهات">Browse demos</span></a>
+          <a class="button-secondary" href="../portfolio/"><span data-i18n data-en="Back to portfolio" data-ar="الرجوع للأعمال">Back to portfolio</span></a>
+        </div>
+      </div>
+      <div class="product-frame" aria-label="Demo library preview">
+        <div class="frame-bar">
+          <span data-i18n data-en="Internal server package" data-ar="حزمة للسيرفر الداخلي">Internal server package</span>
+          <span class="window-dots"><span></span><span></span><span></span></span>
+        </div>
+        <div class="frame-content">
+          <div class="screen-grid">
+            <div class="screen-panel">
+              <strong>30 demo pages</strong>
+              <p data-i18n data-en="Generated from the project data and linked from every case study." data-ar="مولدة من بيانات المشاريع ومربوطة بكل دراسة حالة.">Generated from the project data and linked from every case study.</p>
+            </div>
+            <div class="screen-panel">
+              <strong>Separated assets</strong>
+              <p data-i18n data-en="Each demo folder contains its own HTML, CSS, JavaScript, and image assets." data-ar="كل فولدر ديمو يحتوي HTML و CSS و JavaScript والصور الخاصة به.">Each demo folder contains its own HTML, CSS, JavaScript, and image assets.</p>
+            </div>
+          </div>
+          <div class="screen-bars"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell section" id="library">
+      <div class="section-head">
+        <h2 class="section-title" data-i18n data-en="Choose a demo" data-ar="اختر ديمو">Choose a demo</h2>
+        <p class="section-copy" data-i18n data-en="Filter by sector or open any demo directly. These routes are relative and work cleanly from a static server." data-ar="فلتر حسب القطاع أو افتح أي ديمو مباشرة. المسارات محلية وتعمل على سيرفر Static.">Filter by sector or open any demo directly. These routes are relative and work cleanly from a static server.</p>
+      </div>
+      <div class="filter-row">
+        <button class="filter-button is-active" type="button" data-sector-filter="all"><span data-i18n data-en="All" data-ar="الكل">All</span></button>
+        <button class="filter-button" type="button" data-sector-filter="real-estate"><span data-i18n data-en="Real Estate" data-ar="عقارات">Real Estate</span></button><button class="filter-button" type="button" data-sector-filter="healthcare"><span data-i18n data-en="Healthcare" data-ar="رعاية صحية">Healthcare</span></button><button class="filter-button" type="button" data-sector-filter="education"><span data-i18n data-en="Education" data-ar="تعليم">Education</span></button><button class="filter-button" type="button" data-sector-filter="corporate"><span data-i18n data-en="Corporate" data-ar="شركات">Corporate</span></button><button class="filter-button" type="button" data-sector-filter="operations"><span data-i18n data-en="Operations" data-ar="تشغيل وأنظمة">Operations</span></button><button class="filter-button" type="button" data-sector-filter="marketing"><span data-i18n data-en="Marketing" data-ar="تسويق وتحويلات">Marketing</span></button>
+      </div>
+      <p class="muted" data-filter-count></p>
+      <div class="demo-grid">
+        
+        <article class="demo-index-card" data-demo-card data-sector="real-estate">
+          <span class="tag" data-i18n data-en="Real Estate" data-ar="عقارات">Real Estate</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Prime Estates Sales Platform" data-ar="منصة Prime Estates للمبيعات العقارية">Prime Estates Sales Platform</h2>
+            <p class="card-copy" data-i18n data-en="A sales-led real estate site with project pages, qualified lead forms, and follow-up logic grouped by stage and source." data-ar="موقع بيع عقاري مع صفحات مشاريع، نماذج مؤهلة، ولوحة متابعة للمهتمين حسب المرحلة والمصدر.">A sales-led real estate site with project pages, qualified lead forms, and follow-up logic grouped by stage and source.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">3.4x <span data-i18n data-en="qualified lead lift" data-ar="ارتفاع في الاستفسارات المؤهلة">qualified lead lift</span></span>
+          </div>
+          <a class="button-secondary" href="prime-estates-platform/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="real-estate">
+          <span class="tag" data-i18n data-en="Real Estate" data-ar="عقارات">Real Estate</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="BrokerHub CRM for Property Brokers" data-ar="BrokerHub CRM للوسطاء العقاريين">BrokerHub CRM for Property Brokers</h2>
+            <p class="card-copy" data-i18n data-en="A lightweight CRM for lead tracking, appointments, reservation status, and mobile visit notes." data-ar="CRM خفيف لمتابعة العملاء، الجدولة، حالة الحجز، وملاحظات الزيارات من الهاتف مباشرة.">A lightweight CRM for lead tracking, appointments, reservation status, and mobile visit notes.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">28% <span data-i18n data-en="faster first response" data-ar="تحسن في سرعة الرد">faster first response</span></span>
+          </div>
+          <a class="button-secondary" href="brokerhub-crm/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="real-estate">
+          <span class="tag" data-i18n data-en="Real Estate" data-ar="عقارات">Real Estate</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Blue Harbor Launch Landing Page" data-ar="Landing Page لإطلاق مشروع Blue Harbor">Blue Harbor Launch Landing Page</h2>
+            <p class="card-copy" data-i18n data-en="A high-conversion launch page capturing early demand before the physical sales center opened." data-ar="صفحة هبوط عالية التحويل لحجز الاهتمام الأولي قبل فتح مركز المبيعات.">A high-conversion launch page capturing early demand before the physical sales center opened.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">9d <span data-i18n data-en="delivery time" data-ar="مدة التنفيذ">delivery time</span></span>
+          </div>
+          <a class="button-secondary" href="blueharbor-launch-page/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="real-estate">
+          <span class="tag" data-i18n data-en="Real Estate" data-ar="عقارات">Real Estate</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Compound Scout Mobile App" data-ar="تطبيق Compound Scout للمندوبين">Compound Scout Mobile App</h2>
+            <p class="card-copy" data-i18n data-en="A Flutter app helping field reps showcase units, log notes, and share fitting options with prospects." data-ar="تطبيق Flutter يساعد المندوبين على عرض الوحدات، حفظ الملاحظات، ومشاركة الخيارات المناسبة للعملاء.">A Flutter app helping field reps showcase units, log notes, and share fitting options with prospects.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">2m <span data-i18n data-en="to prepare the right shortlist" data-ar="لتجهيز العرض المناسب">to prepare the right shortlist</span></span>
+          </div>
+          <a class="button-secondary" href="compound-scout-app/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="real-estate">
+          <span class="tag" data-i18n data-en="Real Estate" data-ar="عقارات">Real Estate</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Rental Ops Dashboard" data-ar="لوحة Rental Ops لإدارة العقارات المؤجرة">Rental Ops Dashboard</h2>
+            <p class="card-copy" data-i18n data-en="An operating dashboard for units, maintenance tickets, tenant tracking, and key billing checkpoints." data-ar="لوحة تشغيل لإدارة الوحدات، الصيانة، المستأجرين، والفواتير الأساسية.">An operating dashboard for units, maintenance tickets, tenant tracking, and key billing checkpoints.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">37% <span data-i18n data-en="fewer undocumented requests" data-ar="تقليل الطلبات غير الموثقة">fewer undocumented requests</span></span>
+          </div>
+          <a class="button-secondary" href="rental-ops-dashboard/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="healthcare">
+          <span class="tag" data-i18n data-en="Healthcare" data-ar="رعاية صحية">Healthcare</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Clinic Booking Pro" data-ar="Clinic Booking Pro">Clinic Booking Pro</h2>
+            <p class="card-copy" data-i18n data-en="An appointment-focused clinic site with doctor profiles, service pages, and a mobile-friendly booking flow." data-ar="موقع حجز مواعيد مع صفحات خدمات، أطباء، وجدولة مبسطة للموبايل.">An appointment-focused clinic site with doctor profiles, service pages, and a mobile-friendly booking flow.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">31% <span data-i18n data-en="completed booking lift" data-ar="ارتفاع في الحجوزات المكتملة">completed booking lift</span></span>
+          </div>
+          <a class="button-secondary" href="clinic-booking-pro/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="healthcare">
+          <span class="tag" data-i18n data-en="Healthcare" data-ar="رعاية صحية">Healthcare</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Bright Dental Branch Site" data-ar="موقع فروع Bright Dental">Bright Dental Branch Site</h2>
+            <p class="card-copy" data-i18n data-en="A dental brand site highlighting branches, offers, and services while routing users into the right booking or call path." data-ar="موقع تعريفي يبرز الفروع والخدمات والعروض ويقود إلى الحجز أو المكالمة المناسبة.">A dental brand site highlighting branches, offers, and services while routing users into the right booking or call path.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">5 <span data-i18n data-en="branches in one experience" data-ar="فروع ضمن تجربة واحدة">branches in one experience</span></span>
+          </div>
+          <a class="button-secondary" href="dental-branch-site/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="healthcare">
+          <span class="tag" data-i18n data-en="Healthcare" data-ar="رعاية صحية">Healthcare</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Telehealth Mobile Suite" data-ar="Telehealth Mobile Suite">Telehealth Mobile Suite</h2>
+            <p class="card-copy" data-i18n data-en="A Flutter app for booking remote sessions and tracking recommendations and shared files." data-ar="تطبيق Flutter للمرضى يسهّل حجز الاستشارة ومتابعة التوصيات والملفات.">A Flutter app for booking remote sessions and tracking recommendations and shared files.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">22% <span data-i18n data-en="fewer missed sessions" data-ar="انخفاض في المواعيد الفائتة">fewer missed sessions</span></span>
+          </div>
+          <a class="button-secondary" href="telehealth-mobile-suite/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="healthcare">
+          <span class="tag" data-i18n data-en="Healthcare" data-ar="رعاية صحية">Healthcare</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Lab Booking System" data-ar="نظام حجز Lab Booking">Lab Booking System</h2>
+            <p class="card-copy" data-i18n data-en="A booking and sample-tracking system for home lab visits with cleaner operator and customer flows." data-ar="نظام لحجز التحاليل المنزلية وتتبع العينات وحالة السداد بشكل أبسط للفريق والعميل.">A booking and sample-tracking system for home lab visits with cleaner operator and customer flows.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">45% <span data-i18n data-en="fewer repetitive calls" data-ar="تقليل الاتصالات المتكررة">fewer repetitive calls</span></span>
+          </div>
+          <a class="button-secondary" href="lab-booking-system/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="healthcare">
+          <span class="tag" data-i18n data-en="Healthcare" data-ar="رعاية صحية">Healthcare</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Medical Funnel Campaign" data-ar="Medical Funnel Campaign">Medical Funnel Campaign</h2>
+            <p class="card-copy" data-i18n data-en="A focused landing page and Google Ads campaign for one service line with proof, trust, and a fast booking path." data-ar="صفحة هبوط + حملة Google Ads تستهدف خدمة واحدة برسائل وإثباتات وتجربة حجز سريعة.">A focused landing page and Google Ads campaign for one service line with proof, trust, and a fast booking path.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">2.1x <span data-i18n data-en="conversion rate improvement" data-ar="تحسن في معدل التحويل">conversion rate improvement</span></span>
+          </div>
+          <a class="button-secondary" href="medical-funnel-campaign/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="education">
+          <span class="tag" data-i18n data-en="Education" data-ar="تعليم">Education</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Tutor Booking App" data-ar="Tutor Booking App">Tutor Booking App</h2>
+            <p class="card-copy" data-i18n data-en="A booking app and matching flow that connects parents with the right tutor by subject, level, and location." data-ar="تطبيق وخط سير حجز يربط ولي الأمر بالمدرس المناسب حسب المادة والمرحلة والموقع.">A booking app and matching flow that connects parents with the right tutor by subject, level, and location.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">33% <span data-i18n data-en="faster first-match closure" data-ar="تسريع في إغلاق أول تواصل">faster first-match closure</span></span>
+          </div>
+          <a class="button-secondary" href="tutor-booking-app/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="education">
+          <span class="tag" data-i18n data-en="Education" data-ar="تعليم">Education</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Academy Learning Hub" data-ar="Academy Learning Hub">Academy Learning Hub</h2>
+            <p class="card-copy" data-i18n data-en="An academy website that explains learning tracks and guides visitors into registration or course advice." data-ar="موقع أكاديمية يشرح المسارات التعليمية ويقود الزائر إلى التسجيل أو طلب استشارة.">An academy website that explains learning tracks and guides visitors into registration or course advice.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">14 <span data-i18n data-en="track and service pages" data-ar="صفحة مسار وخدمة">track and service pages</span></span>
+          </div>
+          <a class="button-secondary" href="academy-learning-hub/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="education">
+          <span class="tag" data-i18n data-en="Education" data-ar="تعليم">Education</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="School Parent Portal" data-ar="School Parent Portal">School Parent Portal</h2>
+            <p class="card-copy" data-i18n data-en="A simplified parent portal for updates, fee checkpoints, required documents, and request tracking." data-ar="بوابة مبسطة لأولياء الأمور لعرض الأخبار والرسوم والمستندات الأساسية وتحديث الطلبات.">A simplified parent portal for updates, fee checkpoints, required documents, and request tracking.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">39% <span data-i18n data-en="fewer repetitive inquiries" data-ar="انخفاض الأسئلة المتكررة">fewer repetitive inquiries</span></span>
+          </div>
+          <a class="button-secondary" href="school-parent-portal/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="corporate">
+          <span class="tag" data-i18n data-en="Corporate" data-ar="شركات">Corporate</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Executive Profile Site" data-ar="Executive Profile Site">Executive Profile Site</h2>
+            <p class="card-copy" data-i18n data-en="A corporate profile site explaining services, sectors, and proof points in a persuasive format." data-ar="موقع بروفايل شركات يشرح الخدمات، القطاعات، ودراسات حالة مختصرة بلغة مقنعة.">A corporate profile site explaining services, sectors, and proof points in a persuasive format.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">1 <span data-i18n data-en="live profile instead of static PDF" data-ar="بروفايل حي بدل ملف ثابت">live profile instead of static PDF</span></span>
+          </div>
+          <a class="button-secondary" href="executive-profile-site/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="corporate">
+          <span class="tag" data-i18n data-en="Corporate" data-ar="شركات">Corporate</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Manufacturing ERP Lite" data-ar="Manufacturing ERP Lite">Manufacturing ERP Lite</h2>
+            <p class="card-copy" data-i18n data-en="A simplified internal system for work orders, delivery checkpoints, and cross-team status tracking." data-ar="نظام داخلي مبسط لتتبع أوامر العمل، التسليمات، ومتابعة الحالة بين الأقسام.">A simplified internal system for work orders, delivery checkpoints, and cross-team status tracking.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">5 <span data-i18n data-en="functions under one board" data-ar="أقسام تشغيل تحت لوحة واحدة">functions under one board</span></span>
+          </div>
+          <a class="button-secondary" href="manufacturing-erp-lite/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="corporate">
+          <span class="tag" data-i18n data-en="Corporate" data-ar="شركات">Corporate</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Law Firm Intake Site" data-ar="Law Firm Intake Site">Law Firm Intake Site</h2>
+            <p class="card-copy" data-i18n data-en="A legal services site centered around case types, FAQs, and a first-pass qualification form." data-ar="موقع خدمات قانونية يركز على أنواع القضايا، الأسئلة الشائعة، ونموذج تأهيل أولي.">A legal services site centered around case types, FAQs, and a first-pass qualification form.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">24% <span data-i18n data-en="fewer unfit inquiries" data-ar="انخفاض الاستفسارات غير الملائمة">fewer unfit inquiries</span></span>
+          </div>
+          <a class="button-secondary" href="law-firm-intake-site/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="corporate">
+          <span class="tag" data-i18n data-en="Corporate" data-ar="شركات">Corporate</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Corporate Brand Refresh Site" data-ar="Corporate Brand Refresh Site">Corporate Brand Refresh Site</h2>
+            <p class="card-copy" data-i18n data-en="A full corporate-site rebuild aligned with a refreshed brand and stronger service-specific calls to action." data-ar="إعادة بناء الموقع التعريفي ليحمل الطابع الجديد للشركة مع صفحات خدمة أوضح ودعوات فعل أقوى.">A full corporate-site rebuild aligned with a refreshed brand and stronger service-specific calls to action.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">12 <span data-i18n data-en="reusable UI patterns" data-ar="مكوّنًا موحدًا في النظام البصري">reusable UI patterns</span></span>
+          </div>
+          <a class="button-secondary" href="corporate-brand-refresh/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="corporate">
+          <span class="tag" data-i18n data-en="Corporate" data-ar="شركات">Corporate</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="B2B Proposal Hub" data-ar="B2B Proposal Hub">B2B Proposal Hub</h2>
+            <p class="card-copy" data-i18n data-en="A digital proposal hub replacing fragmented pitch decks and attachments with a single sharable space." data-ar="مركز رقمي لعرض الباقات والعروض ودراسات الحالة بدل إرسال ملفات كثيرة منفصلة.">A digital proposal hub replacing fragmented pitch decks and attachments with a single sharable space.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">47% <span data-i18n data-en="less proposal prep time" data-ar="تقليل وقت إعداد العرض">less proposal prep time</span></span>
+          </div>
+          <a class="button-secondary" href="b2b-proposal-hub/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="operations">
+          <span class="tag" data-i18n data-en="Operations" data-ar="تشغيل وأنظمة">Operations</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Logistics Control Tower" data-ar="Logistics Control Tower">Logistics Control Tower</h2>
+            <p class="card-copy" data-i18n data-en="An operations board for shipments, drivers, and daily tasks with fast state updates." data-ar="لوحة تشغيل لمتابعة الشحنات والسائقين والمهام اليومية مع تحديثات سريعة للحالة.">An operations board for shipments, drivers, and daily tasks with fast state updates.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">32% <span data-i18n data-en="faster status updates" data-ar="انخفاض وقت تحديث الحالة">faster status updates</span></span>
+          </div>
+          <a class="button-secondary" href="logistics-control-tower/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="operations">
+          <span class="tag" data-i18n data-en="Operations" data-ar="تشغيل وأنظمة">Operations</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Hotel Booking Suite" data-ar="Hotel Booking Suite">Hotel Booking Suite</h2>
+            <p class="card-copy" data-i18n data-en="A booking-focused hotel site presenting rooms and offers while driving more direct requests beyond listing platforms." data-ar="موقع حجز وترويج للفندق يبرز الغرف والعروض ويجمع الطلبات المباشرة بعيدًا عن منصات الوساطة فقط.">A booking-focused hotel site presenting rooms and offers while driving more direct requests beyond listing platforms.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">19% <span data-i18n data-en="more direct inquiries" data-ar="زيادة الطلبات المباشرة">more direct inquiries</span></span>
+          </div>
+          <a class="button-secondary" href="hotel-booking-suite/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="operations">
+          <span class="tag" data-i18n data-en="Operations" data-ar="تشغيل وأنظمة">Operations</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Restaurant QR Ordering" data-ar="Restaurant QR Ordering">Restaurant QR Ordering</h2>
+            <p class="card-copy" data-i18n data-en="A QR-driven ordering flow built as a fast app-like web experience to reduce reliance on printed menus." data-ar="تجربة طلب QR مبنية كصفحات سريعة تشبه التطبيق وتخفف الاعتماد على القوائم الورقية.">A QR-driven ordering flow built as a fast app-like web experience to reduce reliance on printed menus.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">0 <span data-i18n data-en="recurring print runs" data-ar="طباعة دورية للقوائم">recurring print runs</span></span>
+          </div>
+          <a class="button-secondary" href="restaurant-qr-ordering/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="operations">
+          <span class="tag" data-i18n data-en="Operations" data-ar="تشغيل وأنظمة">Operations</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Retail Ops Dashboard" data-ar="Retail Ops Dashboard">Retail Ops Dashboard</h2>
+            <p class="card-copy" data-i18n data-en="A board for orders, fast inventory signals, and delivery status with daily summaries for management." data-ar="لوحة متابعة للطلبات، المخزون السريع، وحالة التوصيل مع ملخص يومي للإدارة.">A board for orders, fast inventory signals, and delivery status with daily summaries for management.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">27% <span data-i18n data-en="faster order closure" data-ar="تحسن في سرعة إقفال الطلب">faster order closure</span></span>
+          </div>
+          <a class="button-secondary" href="retail-ops-dashboard/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="operations">
+          <span class="tag" data-i18n data-en="Operations" data-ar="تشغيل وأنظمة">Operations</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Contractor Project Portal" data-ar="Contractor Project Portal">Contractor Project Portal</h2>
+            <p class="card-copy" data-i18n data-en="A portal for project-site status, execution updates, payment milestones, and shared files with clients." data-ar="بوابة لمتابعة مواقع المشاريع وحالة التنفيذ والمستخلصات والملفات المشتركة مع العملاء.">A portal for project-site status, execution updates, payment milestones, and shared files with clients.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">41% <span data-i18n data-en="fewer manual update messages" data-ar="تقليل رسائل المتابعة اليدوية">fewer manual update messages</span></span>
+          </div>
+          <a class="button-secondary" href="contractor-project-portal/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="marketing">
+          <span class="tag" data-i18n data-en="Marketing" data-ar="تسويق وتحويلات">Marketing</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Ads ROI Dashboard" data-ar="Ads ROI Dashboard">Ads ROI Dashboard</h2>
+            <p class="card-copy" data-i18n data-en="A dashboard summarizing Google Ads performance and tying it to inquiries, pages, and service lines." data-ar="لوحة تلخص أداء حملات Google Ads مع الربط بنتائج الاستفسارات والصفحات والخدمات.">A dashboard summarizing Google Ads performance and tying it to inquiries, pages, and service lines.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">1 <span data-i18n data-en="dashboard linking spend to outcomes" data-ar="لوحة تجمع الأداء والتحويل">dashboard linking spend to outcomes</span></span>
+          </div>
+          <a class="button-secondary" href="ads-roi-dashboard/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="marketing">
+          <span class="tag" data-i18n data-en="Marketing" data-ar="تسويق وتحويلات">Marketing</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Beauty Clinic Funnel" data-ar="Beauty Clinic Funnel">Beauty Clinic Funnel</h2>
+            <p class="card-copy" data-i18n data-en="A focused treatment funnel connecting ads to a persuasive mobile page, follow-up messages, and fast lead capture." data-ar="فَنَل لخدمة تجميل محددة يربط الإعلان بصفحة إقناع ورسائل متابعة وتحويل سريع للموبايل.">A focused treatment funnel connecting ads to a persuasive mobile page, follow-up messages, and fast lead capture.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">2.6x <span data-i18n data-en="qualified inquiry growth" data-ar="نمو الطلبات المؤهلة">qualified inquiry growth</span></span>
+          </div>
+          <a class="button-secondary" href="beauty-clinic-funnel/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="marketing">
+          <span class="tag" data-i18n data-en="Marketing" data-ar="تسويق وتحويلات">Marketing</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="NGO Donation Landing" data-ar="NGO Donation Landing">NGO Donation Landing</h2>
+            <p class="card-copy" data-i18n data-en="A donation landing page that communicates the mission quickly, shows impact, and directs supporters to act." data-ar="صفحة توعوية وجمع تبرعات توصل الرسالة بسرعة وتوضح الأثر ونقطة المشاركة.">A donation landing page that communicates the mission quickly, shows impact, and directs supporters to act.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">1 <span data-i18n data-en="single campaign link" data-ar="رابط موحد للحملة">single campaign link</span></span>
+          </div>
+          <a class="button-secondary" href="ngo-donation-landing/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="marketing">
+          <span class="tag" data-i18n data-en="Marketing" data-ar="تسويق وتحويلات">Marketing</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Event Ticketing App" data-ar="Event Ticketing App">Event Ticketing App</h2>
+            <p class="card-copy" data-i18n data-en="A mobile booking experience for event discovery, ticket choice, and registration follow-up." data-ar="تطبيق أو تجربة Web App لتوضيح الفعالية وجدولة التذاكر ومتابعة التسجيل.">A mobile booking experience for event discovery, ticket choice, and registration follow-up.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">34% <span data-i18n data-en="better registration completion" data-ar="تحسن في إكمال التسجيل">better registration completion</span></span>
+          </div>
+          <a class="button-secondary" href="event-ticketing-app/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="operations">
+          <span class="tag" data-i18n data-en="Operations" data-ar="تشغيل وأنظمة">Operations</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Membership Portal WP + Firebase" data-ar="Membership Portal WP + Firebase">Membership Portal WP + Firebase</h2>
+            <p class="card-copy" data-i18n data-en="A hybrid member portal combining easy content publishing with access control and lightweight member data." data-ar="منصة أعضاء هجينة تسمح بإدارة المحتوى مع صلاحيات ودخول وبيانات أعضاء خفيفة.">A hybrid member portal combining easy content publishing with access control and lightweight member data.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">2 <span data-i18n data-en="main platform layers" data-ar="طبقتا النظام الرئيسيتان">main platform layers</span></span>
+          </div>
+          <a class="button-secondary" href="membership-portal-wpfb/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="corporate">
+          <span class="tag" data-i18n data-en="Corporate" data-ar="شركات">Corporate</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Multi-Branch Email Migration" data-ar="Multi-Branch Email Migration">Multi-Branch Email Migration</h2>
+            <p class="card-copy" data-i18n data-en="A migration from a legacy provider to Microsoft 365 including DNS cleanup, branch permissions, and delivery validation." data-ar="ترحيل من مزود قديم إلى Microsoft 365 مع تنظيف DNS وصلاحيات الفروع ومراجعة التسليم.">A migration from a legacy provider to Microsoft 365 including DNS cleanup, branch permissions, and delivery validation.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">5 <span data-i18n data-en="branches migrated smoothly" data-ar="فروع تم نقلها بدون توقف ملحوظ">branches migrated smoothly</span></span>
+          </div>
+          <a class="button-secondary" href="multi-branch-email-migration/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+        <article class="demo-index-card" data-demo-card data-sector="operations">
+          <span class="tag" data-i18n data-en="Operations" data-ar="تشغيل وأنظمة">Operations</span>
+          <div class="stack">
+            <h2 class="card-title" data-i18n data-en="Hiring Automation Flow" data-ar="Hiring Automation Flow">Hiring Automation Flow</h2>
+            <p class="card-copy" data-i18n data-en="An automation flow for hiring requests, candidate screening, interview coordination, and internal notifications." data-ar="مسار أتمتة لطلبات التوظيف والفرز والتنسيق للمقابلات والإشعارات الداخلية.">An automation flow for hiring requests, candidate screening, interview coordination, and internal notifications.</p>
+          </div>
+          <div class="chip-row">
+            <span class="chip">44% <span data-i18n data-en="less coordination time" data-ar="تقليل وقت التنسيق">less coordination time</span></span>
+          </div>
+          <a class="button-secondary" href="hiring-automation-flow/" target="_blank" rel="noopener noreferrer"><span data-i18n data-en="Open interactive demo" data-ar="افتح الديمو التفاعلي">Open interactive demo</span></a>
+        </article>
+      
+      </div>
+      <p class="card-copy empty-state" data-empty-state hidden><span data-i18n data-en="No demos match this filter." data-ar="لا توجد ديموهات في هذا التصنيف.">No demos match this filter.</span></p>
+    </section>
+  
+    </main>
+    <footer class="footer">
+      <div class="shell footer-inner">
+        <p class="muted">© <span data-year></span> POPWAM demo library.</p>
+        <div class="inline-actions">
+          <a class="button-secondary" href="mailto:hello@popwam.com">Email</a>
+          <a class="button-secondary" href="tel:+201033662881">Call</a>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/demos.js" defer></script>
+  </body>
+</html>

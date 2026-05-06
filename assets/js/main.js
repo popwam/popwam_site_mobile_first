@@ -1,5 +1,6 @@
 const root = document.documentElement;
 const locale = root.lang || "ar";
+const localeStorageKey = "popwam_locale";
 
 const copy = {
   ar: {
@@ -19,6 +20,20 @@ const copy = {
 };
 
 const ui = copy[locale] || copy.en;
+
+const setupLanguagePreference = () => {
+  document.querySelectorAll(".lang-switch").forEach((link) => {
+    link.addEventListener("click", () => {
+      const nextLocale = link.getAttribute("href")?.startsWith("/en/") ? "en" : "ar";
+
+      try {
+        window.localStorage.setItem(localeStorageKey, nextLocale);
+      } catch (error) {
+        // Storage can be unavailable in private browsing; switching should still work.
+      }
+    });
+  });
+};
 
 const setYear = () => {
   document.querySelectorAll("[data-year]").forEach((node) => {
@@ -122,6 +137,56 @@ const setupPortfolioFilters = () => {
   applyFilter("all");
 };
 
+const isEditableTarget = (target) =>
+  Boolean(target && target.closest && target.closest("input, textarea, select, [contenteditable='true']"));
+
+const setupProtectedContent = () => {
+  document.addEventListener("copy", (event) => {
+    if (!isEditableTarget(event.target)) {
+      event.preventDefault();
+    }
+  });
+
+  document.addEventListener("cut", (event) => {
+    if (!isEditableTarget(event.target)) {
+      event.preventDefault();
+    }
+  });
+
+  document.addEventListener("contextmenu", (event) => {
+    if (!isEditableTarget(event.target)) {
+      event.preventDefault();
+    }
+  });
+
+  document.addEventListener("selectstart", (event) => {
+    if (!isEditableTarget(event.target)) {
+      event.preventDefault();
+    }
+  });
+
+  document.addEventListener("dragstart", (event) => {
+    if (!isEditableTarget(event.target)) {
+      event.preventDefault();
+    }
+  });
+};
+
+const setupDemoLinks = () => {
+  document.querySelectorAll("[data-demo-link]").forEach((link) => {
+    link.addEventListener("click", (event) => {
+      if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+        return;
+      }
+
+      event.preventDefault();
+      event.stopPropagation();
+      event.stopImmediatePropagation();
+      window.open(link.href, "_blank", "noopener,noreferrer");
+    });
+  });
+};
+
 const setupContactForm = () => {
   const form = document.querySelector("[data-brief-form]");
 
@@ -150,7 +215,10 @@ const setupContactForm = () => {
 };
 
 setYear();
+setupLanguagePreference();
 setupMenu();
 setupReveal();
 setupPortfolioFilters();
+setupProtectedContent();
+setupDemoLinks();
 setupContactForm();

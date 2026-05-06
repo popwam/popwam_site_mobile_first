@@ -22,11 +22,54 @@
     <meta name="twitter:description" content="POPWAM services include websites, systems, Flutter apps, WordPress + Firebase, SEO, email migration, hosting, DNS, automation, and Google Ads campaigns.">
     <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
     <link rel="manifest" href="/site.webmanifest">
+    <script>
+(function () {
+  var storageKey = "popwam_locale";
+  var targetLocale = "";
+
+  try {
+    var storedLocale = window.localStorage && window.localStorage.getItem(storageKey);
+    if (storedLocale === "ar" || storedLocale === "en") {
+      targetLocale = storedLocale;
+    }
+  } catch (error) {}
+
+  if (!targetLocale) {
+    var languages = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || navigator.userLanguage || ""];
+
+    for (var index = 0; index < languages.length; index += 1) {
+      var code = String(languages[index] || "").toLowerCase().split("-")[0];
+
+      if (code === "ar" || code === "en") {
+        targetLocale = code;
+        break;
+      }
+    }
+  }
+
+  if (!targetLocale) {
+    targetLocale = "en";
+  }
+
+  if (targetLocale === "en") {
+    return;
+  }
+
+  var targets = {"ar":"/services/","en":"/en/services/"};
+  var targetPath = targets[targetLocale];
+
+  if (!targetPath || window.location.pathname === targetPath) {
+    return;
+  }
+
+  window.location.replace(targetPath + window.location.search + window.location.hash);
+})();
+</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"POPWAM","url":"https://popwam.com","logo":"https://popwam.com/assets/img/logo.svg","email":"hello@popwam.com","telephone":"+20 103 366 2881","areaServed":"MENA","address":{"@type":"PostalAddress","addressLocality":"Cairo, Egypt"}},{"@type":"WebPage","name":"https://popwam.com/en/services/","url":"https://popwam.com/en/services/","inLanguage":"en","description":"POPWAM services include websites, systems, Flutter apps, WordPress + Firebase, SEO, email migration, hosting, DNS, automation, and Google Ads campaigns."},{"@type":"ItemList","name":"POPWAM service catalog","itemListElement":[{"@type":"ListItem","position":1,"name":"Websites and Landing Pages"},{"@type":"ListItem","position":2,"name":"CRM and Internal Systems"},{"@type":"ListItem","position":3,"name":"Flutter Mobile Apps"},{"@type":"ListItem","position":4,"name":"WordPress + Firebase"},{"@type":"ListItem","position":5,"name":"SEO and Content Structure"},{"@type":"ListItem","position":6,"name":"Email Migration"},{"@type":"ListItem","position":7,"name":"Servers, Hosting, and DNS"},{"@type":"ListItem","position":8,"name":"Automation"},{"@type":"ListItem","position":9,"name":"Google Ads Campaigns"},{"@type":"ListItem","position":10,"name":"Reporting and Performance Analytics"}]}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"POPWAM","url":"https://popwam.com","logo":"https://popwam.com/assets/img/logo.svg","email":"hello@popwam.com","telephone":"+20 103 366 2881","areaServed":"MENA","address":{"@type":"PostalAddress","addressLocality":"Cairo, Egypt"}},{"@type":"WebPage","name":"https://popwam.com/en/services/","url":"https://popwam.com/en/services/","inLanguage":"en","description":"POPWAM services include websites, systems, Flutter apps, WordPress + Firebase, SEO, email migration, hosting, DNS, automation, and Google Ads campaigns."},{"@type":"ItemList","name":"POPWAM service catalog","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Service","name":"Websites and Landing Pages","description":"Company sites, marketing sites, and landing pages built to move visitors toward a clear next step.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"Average: EGP 25k - 85k"}}}},{"@type":"ListItem","position":2,"item":{"@type":"Service","name":"CRM and Internal Systems","description":"Custom systems for managing leads, sales pipelines, follow-ups, or internal operations.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"Average: EGP 60k - 220k"}}}},{"@type":"ListItem","position":3,"item":{"@type":"Service","name":"Flutter Mobile Apps","description":"Fast mobile apps for customers, field teams, or internal operators.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"Average: EGP 90k - 350k"}}}},{"@type":"ListItem","position":4,"item":{"@type":"Service","name":"WordPress + Firebase","description":"Hybrid setups combining content-editing simplicity with data, member, or permissions layers.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"Average: EGP 45k - 160k"}}}},{"@type":"ListItem","position":5,"item":{"@type":"Service","name":"SEO and Content Structure","description":"Page structure, copy, links, and schema tuned for organic discoverability.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"Monthly average: EGP 15k - 55k"}}}},{"@type":"ListItem","position":6,"item":{"@type":"Service","name":"Email Migration","description":"Move business email between Google Workspace, Zoho, and Microsoft 365 with minimal disruption.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"Average: EGP 20k - 90k"}}}},{"@type":"ListItem","position":7,"item":{"@type":"Service","name":"Servers, Hosting, and DNS","description":"Hosting, CDN, protection, domains, and the records behind both the site and email stack.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"Average: EGP 15k - 70k"}}}},{"@type":"ListItem","position":8,"item":{"@type":"Service","name":"Automation","description":"Automations for lead routing, alerts, status updates, and connected daily tools.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"Average: EGP 25k - 120k"}}}},{"@type":"ListItem","position":9,"item":{"@type":"Service","name":"Google Ads Campaigns","description":"Campaign structures, landing pages, and conversion messaging tied to the site and data flow.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"Monthly management: EGP 12k - 45k"}}}},{"@type":"ListItem","position":10,"item":{"@type":"Service","name":"Reporting and Performance Analytics","description":"Surface the important numbers in dashboards managers, sales teams, and operators can actually use.","provider":{"@type":"Organization","name":"POPWAM"},"offers":{"@type":"Offer","priceCurrency":"EGP","priceSpecification":{"@type":"PriceSpecification","description":"Average: EGP 30k - 140k"}}}}]}]}</script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -104,6 +147,7 @@
     
   </header>
 
+      <p class="pricing-note reveal">The prices below are indicative average budgets in EGP and vary by scope, integrations, and content needs.</p>
       <div class="service-grid">
         
   <article class="service-card reveal">
@@ -111,6 +155,7 @@
     <div class="card-stack">
       <h3 class="mini-title">Websites and Landing Pages</h3>
       <p class="card-text">Company sites, marketing sites, and landing pages built to move visitors toward a clear next step.</p>
+      <span class="price-pill">Average: EGP 25k - 85k</span>
       <ul class="bullet-list"><li>Mobile-first, app-like interface patterns</li><li>Service, sales, comparison, and proposal pages</li><li>Clear copy, CTA logic, and conversion flow</li></ul>
       <p class="card-text">Best when you need a fast, clean surface that is easy to send to prospects.</p>
     </div>
@@ -121,6 +166,7 @@
     <div class="card-stack">
       <h3 class="mini-title">CRM and Internal Systems</h3>
       <p class="card-text">Custom systems for managing leads, sales pipelines, follow-ups, or internal operations.</p>
+      <span class="price-pill">Average: EGP 60k - 220k</span>
       <ul class="bullet-list"><li>Clear dashboards for leaders and operators</li><li>Practical roles, permissions, and entry forms</li><li>Connections to email, WhatsApp, or outside tools</li></ul>
       <p class="card-text">Reduces manual work and centralizes information instead of scattering it across tools.</p>
     </div>
@@ -131,6 +177,7 @@
     <div class="card-stack">
       <h3 class="mini-title">Flutter Mobile Apps</h3>
       <p class="card-text">Fast mobile apps for customers, field teams, or internal operators.</p>
+      <span class="price-pill">Average: EGP 90k - 350k</span>
       <ul class="bullet-list"><li>Practical MVP delivery</li><li>Phone-first experiences from the start</li><li>Connections to Firebase or external APIs</li></ul>
       <p class="card-text">Useful when the business needs a true mobile layer beyond the web surface.</p>
     </div>
@@ -141,6 +188,7 @@
     <div class="card-stack">
       <h3 class="mini-title">WordPress + Firebase</h3>
       <p class="card-text">Hybrid setups combining content-editing simplicity with data, member, or permissions layers.</p>
+      <span class="price-pill">Average: EGP 45k - 160k</span>
       <ul class="bullet-list"><li>Editor-friendly content management</li><li>Connected forms, members, and live data</li><li>Well suited for small and mid-sized platforms</li></ul>
       <p class="card-text">A strong fit when you need frequent content updates plus capabilities beyond standard WordPress.</p>
     </div>
@@ -151,6 +199,7 @@
     <div class="card-stack">
       <h3 class="mini-title">SEO and Content Structure</h3>
       <p class="card-text">Page structure, copy, links, and schema tuned for organic discoverability.</p>
+      <span class="price-pill">Monthly average: EGP 15k - 55k</span>
       <ul class="bullet-list"><li>Meta tags, schema, and clean URLs</li><li>Service copy, FAQs, and logical keyword distribution</li><li>Prepared for search engines and LLM indexing</li></ul>
       <p class="card-text">Turns the site into a long-term marketing asset instead of a one-off campaign page.</p>
     </div>
@@ -161,6 +210,7 @@
     <div class="card-stack">
       <h3 class="mini-title">Email Migration</h3>
       <p class="card-text">Move business email between Google Workspace, Zoho, and Microsoft 365 with minimal disruption.</p>
+      <span class="price-pill">Average: EGP 20k - 90k</span>
       <ul class="bullet-list"><li>Domain, records, and DNS preparation</li><li>User, team, and permission planning</li><li>Delivery validation and SPF, DKIM, DMARC setup</li></ul>
       <p class="card-text">Important for businesses that need reliable mail without downtime or lost messages.</p>
     </div>
@@ -171,6 +221,7 @@
     <div class="card-stack">
       <h3 class="mini-title">Servers, Hosting, and DNS</h3>
       <p class="card-text">Hosting, CDN, protection, domains, and the records behind both the site and email stack.</p>
+      <span class="price-pill">Average: EGP 15k - 70k</span>
       <ul class="bullet-list"><li>Practical Cloudflare and DNS setups</li><li>Speed and reliability improvements</li><li>Clean domain and subservice connections</li></ul>
       <p class="card-text">Gives the project a stable base instead of recurring deployment and domain issues.</p>
     </div>
@@ -181,6 +232,7 @@
     <div class="card-stack">
       <h3 class="mini-title">Automation</h3>
       <p class="card-text">Automations for lead routing, alerts, status updates, and connected daily tools.</p>
+      <span class="price-pill">Average: EGP 25k - 120k</span>
       <ul class="bullet-list"><li>Connect forms, CRM, email, and reporting</li><li>Reduce repetitive manual follow-up</li><li>Approval paths and internal notifications</li></ul>
       <p class="card-text">Great for small teams that need more speed before adding headcount.</p>
     </div>
@@ -191,6 +243,7 @@
     <div class="card-stack">
       <h3 class="mini-title">Google Ads Campaigns</h3>
       <p class="card-text">Campaign structures, landing pages, and conversion messaging tied to the site and data flow.</p>
+      <span class="price-pill">Monthly management: EGP 12k - 45k</span>
       <ul class="bullet-list"><li>Match the ad message to the landing experience</li><li>Track conversions against operating outcomes</li><li>Test multiple offers, services, and value angles</li></ul>
       <p class="card-text">Best when paid campaigns sit on top of a page already built for conversion.</p>
     </div>
@@ -201,6 +254,7 @@
     <div class="card-stack">
       <h3 class="mini-title">Reporting and Performance Analytics</h3>
       <p class="card-text">Surface the important numbers in dashboards managers, sales teams, and operators can actually use.</p>
+      <span class="price-pill">Average: EGP 30k - 140k</span>
       <ul class="bullet-list"><li>Lead, conversion, and source reporting</li><li>Dashboards for campaigns or delivery teams</li><li>Decision-oriented metrics instead of data dumping</li></ul>
       <p class="card-text">Turns numbers into faster decisions instead of delayed manual reports.</p>
     </div>

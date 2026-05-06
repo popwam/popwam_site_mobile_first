@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /standalone-demos/
 
 Host: popwam.com
 Sitemap: https://popwam.com/sitemap.xml
+LLMs: https://popwam.com/llms.txt

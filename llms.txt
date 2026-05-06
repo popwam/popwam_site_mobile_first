@@ -2,9 +2,16 @@
 > POPWAM is a mobile-first software agency that builds sales-focused websites, landing pages, internal systems, Flutter apps, and operational automations for business growth.
 
 Site: https://popwam.com
+Public route count: 105
 Languages:
 - Arabic default at /
 - English mirror at /en/
+
+External index files:
+- /sitemap.xml : public XML sitemap for search crawlers
+- /robots.txt : crawler policy and sitemap/LLMs discovery
+- /site.webmanifest : install metadata for browser/PWA surfaces
+- /llms.txt : AI-readable summary of the agency, services, and project routes
 
 Main pages:
 - / : agency overview and featured work
@@ -12,23 +19,60 @@ Main pages:
 - /services/ : full service catalog
 - /portfolio/ : filtered project gallery
 - /case-study/ : case study library
+- /demos/ : local demo library with 30 generated demos
 - /process/ : delivery process
 - /contact/ : static contact brief and direct outreach
 
 Key services:
-- Websites and Landing Pages
-- CRM and Internal Systems
-- Flutter Mobile Apps
-- WordPress + Firebase
-- SEO and Content Structure
-- Email Migration
-- Servers, Hosting, and DNS
-- Automation
-- Google Ads Campaigns
-- Reporting and Performance Analytics
+- Websites and Landing Pages (Average: EGP 25k - 85k)
+- CRM and Internal Systems (Average: EGP 60k - 220k)
+- Flutter Mobile Apps (Average: EGP 90k - 350k)
+- WordPress + Firebase (Average: EGP 45k - 160k)
+- SEO and Content Structure (Monthly average: EGP 15k - 55k)
+- Email Migration (Average: EGP 20k - 90k)
+- Servers, Hosting, and DNS (Average: EGP 15k - 70k)
+- Automation (Average: EGP 25k - 120k)
+- Google Ads Campaigns (Monthly management: EGP 12k - 45k)
+- Reporting and Performance Analytics (Average: EGP 30k - 140k)
 
 Project library:
-- 30 case studies with sector, challenge, solution, metrics, services used, and demo links
+- 30 case studies with sector, challenge, solution, metrics, services used, and local demo links
+- 30 generated demo pages in /demos/; every project folder contains its own index.html, CSS, JavaScript, and images
+- 30 standalone copies in /standalone-demos/ for moving individual demos to separate servers; these copies are intentionally excluded from the public sitemap on popwam.com to avoid duplicate indexing
+- Demo links open in a new tab from portfolio and case study pages
+- Demos support Arabic/English switching and three visual themes from the same local route
+
+Project routes:
+- Prime Estates Sales Platform | sector: Real Estate | case study: https://popwam.com/en/case-study/prime-estates-platform/ | demo: https://popwam.com/demos/prime-estates-platform/ | services: Websites and Landing Pages, CRM and Internal Systems, Automation, SEO and Content Structure
+- BrokerHub CRM for Property Brokers | sector: Real Estate | case study: https://popwam.com/en/case-study/brokerhub-crm/ | demo: https://popwam.com/demos/brokerhub-crm/ | services: CRM and Internal Systems, Automation, Reporting and Performance Analytics
+- Blue Harbor Launch Landing Page | sector: Real Estate | case study: https://popwam.com/en/case-study/blueharbor-launch-page/ | demo: https://popwam.com/demos/blueharbor-launch-page/ | services: Websites and Landing Pages, Google Ads Campaigns, SEO and Content Structure
+- Compound Scout Mobile App | sector: Real Estate | case study: https://popwam.com/en/case-study/compound-scout-app/ | demo: https://popwam.com/demos/compound-scout-app/ | services: Flutter Mobile Apps, CRM and Internal Systems, Reporting and Performance Analytics
+- Rental Ops Dashboard | sector: Real Estate | case study: https://popwam.com/en/case-study/rental-ops-dashboard/ | demo: https://popwam.com/demos/rental-ops-dashboard/ | services: CRM and Internal Systems, Automation, Reporting and Performance Analytics
+- Clinic Booking Pro | sector: Healthcare | case study: https://popwam.com/en/case-study/clinic-booking-pro/ | demo: https://popwam.com/demos/clinic-booking-pro/ | services: Websites and Landing Pages, Automation, SEO and Content Structure
+- Bright Dental Branch Site | sector: Healthcare | case study: https://popwam.com/en/case-study/dental-branch-site/ | demo: https://popwam.com/demos/dental-branch-site/ | services: Websites and Landing Pages, SEO and Content Structure, Google Ads Campaigns
+- Telehealth Mobile Suite | sector: Healthcare | case study: https://popwam.com/en/case-study/telehealth-mobile-suite/ | demo: https://popwam.com/demos/telehealth-mobile-suite/ | services: Flutter Mobile Apps, Automation, Reporting and Performance Analytics
+- Lab Booking System | sector: Healthcare | case study: https://popwam.com/en/case-study/lab-booking-system/ | demo: https://popwam.com/demos/lab-booking-system/ | services: CRM and Internal Systems, Automation, Reporting and Performance Analytics
+- Medical Funnel Campaign | sector: Healthcare | case study: https://popwam.com/en/case-study/medical-funnel-campaign/ | demo: https://popwam.com/demos/medical-funnel-campaign/ | services: Websites and Landing Pages, Google Ads Campaigns, SEO and Content Structure, Automation
+- Tutor Booking App | sector: Education | case study: https://popwam.com/en/case-study/tutor-booking-app/ | demo: https://popwam.com/demos/tutor-booking-app/ | services: Flutter Mobile Apps, CRM and Internal Systems, Automation
+- Academy Learning Hub | sector: Education | case study: https://popwam.com/en/case-study/academy-learning-hub/ | demo: https://popwam.com/demos/academy-learning-hub/ | services: Websites and Landing Pages, SEO and Content Structure, Google Ads Campaigns
+- School Parent Portal | sector: Education | case study: https://popwam.com/en/case-study/school-parent-portal/ | demo: https://popwam.com/demos/school-parent-portal/ | services: WordPress + Firebase, Automation, SEO and Content Structure
+- Executive Profile Site | sector: Corporate | case study: https://popwam.com/en/case-study/executive-profile-site/ | demo: https://popwam.com/demos/executive-profile-site/ | services: Websites and Landing Pages, SEO and Content Structure, Reporting and Performance Analytics
+- Manufacturing ERP Lite | sector: Corporate | case study: https://popwam.com/en/case-study/manufacturing-erp-lite/ | demo: https://popwam.com/demos/manufacturing-erp-lite/ | services: CRM and Internal Systems, Automation, Reporting and Performance Analytics
+- Law Firm Intake Site | sector: Corporate | case study: https://popwam.com/en/case-study/law-firm-intake-site/ | demo: https://popwam.com/demos/law-firm-intake-site/ | services: Websites and Landing Pages, SEO and Content Structure, Automation
+- Corporate Brand Refresh Site | sector: Corporate | case study: https://popwam.com/en/case-study/corporate-brand-refresh/ | demo: https://popwam.com/demos/corporate-brand-refresh/ | services: Websites and Landing Pages, SEO and Content Structure, Reporting and Performance Analytics
+- B2B Proposal Hub | sector: Corporate | case study: https://popwam.com/en/case-study/b2b-proposal-hub/ | demo: https://popwam.com/demos/b2b-proposal-hub/ | services: Websites and Landing Pages, Automation, Reporting and Performance Analytics
+- Logistics Control Tower | sector: Operations | case study: https://popwam.com/en/case-study/logistics-control-tower/ | demo: https://popwam.com/demos/logistics-control-tower/ | services: CRM and Internal Systems, Automation, Reporting and Performance Analytics
+- Hotel Booking Suite | sector: Operations | case study: https://popwam.com/en/case-study/hotel-booking-suite/ | demo: https://popwam.com/demos/hotel-booking-suite/ | services: Websites and Landing Pages, SEO and Content Structure, Google Ads Campaigns
+- Restaurant QR Ordering | sector: Operations | case study: https://popwam.com/en/case-study/restaurant-qr-ordering/ | demo: https://popwam.com/demos/restaurant-qr-ordering/ | services: Websites and Landing Pages, WordPress + Firebase, Automation
+- Retail Ops Dashboard | sector: Operations | case study: https://popwam.com/en/case-study/retail-ops-dashboard/ | demo: https://popwam.com/demos/retail-ops-dashboard/ | services: CRM and Internal Systems, Automation, Reporting and Performance Analytics
+- Contractor Project Portal | sector: Operations | case study: https://popwam.com/en/case-study/contractor-project-portal/ | demo: https://popwam.com/demos/contractor-project-portal/ | services: WordPress + Firebase, Automation, Reporting and Performance Analytics
+- Ads ROI Dashboard | sector: Marketing | case study: https://popwam.com/en/case-study/ads-roi-dashboard/ | demo: https://popwam.com/demos/ads-roi-dashboard/ | services: Google Ads Campaigns, Reporting and Performance Analytics, Automation
+- Beauty Clinic Funnel | sector: Marketing | case study: https://popwam.com/en/case-study/beauty-clinic-funnel/ | demo: https://popwam.com/demos/beauty-clinic-funnel/ | services: Websites and Landing Pages, Google Ads Campaigns, Automation, SEO and Content Structure
+- NGO Donation Landing | sector: Marketing | case study: https://popwam.com/en/case-study/ngo-donation-landing/ | demo: https://popwam.com/demos/ngo-donation-landing/ | services: Websites and Landing Pages, SEO and Content Structure, Reporting and Performance Analytics
+- Event Ticketing App | sector: Marketing | case study: https://popwam.com/en/case-study/event-ticketing-app/ | demo: https://popwam.com/demos/event-ticketing-app/ | services: Flutter Mobile Apps, Automation, Reporting and Performance Analytics
+- Membership Portal WP + Firebase | sector: Operations | case study: https://popwam.com/en/case-study/membership-portal-wpfb/ | demo: https://popwam.com/demos/membership-portal-wpfb/ | services: WordPress + Firebase, Automation, Reporting and Performance Analytics
+- Multi-Branch Email Migration | sector: Corporate | case study: https://popwam.com/en/case-study/multi-branch-email-migration/ | demo: https://popwam.com/demos/multi-branch-email-migration/ | services: Email Migration, Servers, Hosting, and DNS
+- Hiring Automation Flow | sector: Operations | case study: https://popwam.com/en/case-study/hiring-automation-flow/ | demo: https://popwam.com/demos/hiring-automation-flow/ | services: Automation, Reporting and Performance Analytics, CRM and Internal Systems
 
 Contact:
 - Email: hello@popwam.com

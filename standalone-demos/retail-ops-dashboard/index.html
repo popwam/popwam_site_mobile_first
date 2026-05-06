@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Retail Ops | Store Dashboard</title>
+    <meta name="description" content="A board for orders, fast inventory signals, and delivery status with daily summaries for management.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#11141b">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Retail Ops | Store Dashboard">
+    <meta property="og:description" content="A board for orders, fast inventory signals, and delivery status with daily summaries for management.">
+    
+    <meta property="og:image" content="assets/img/project-placeholder.svg">
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Retail Ops | Store Dashboard","description":"A board for orders, fast inventory signals, and delivery status with daily summaries for management.","applicationCategory":"BusinessApplication","operatingSystem":"Web","inLanguage":["en","ar"],"isAccessibleForFree":true,"creator":{"@type":"Organization","name":"POPWAM","url":"https://popwam.com"}}</script>
+  </head>
+  <body data-theme="aurora">
+    <header class="topbar">
+      <div class="shell topbar-inner">
+        <a class="brand" href="./" aria-label="POPWAM demos">
+          <img src="assets/img/logo.svg" alt="POPWAM logo" width="38" height="38">
+          <span>Retail Ops</span>
+        </a>
+        <nav class="nav-actions" aria-label="Demo navigation">
+          
+          
+          
+          <div class="control-group" aria-label="Language">
+            <button class="control-button is-active" type="button" data-lang="en">EN</button>
+            <button class="control-button" type="button" data-lang="ar">AR</button>
+          </div>
+          <div class="control-group" aria-label="Theme">
+            <button class="control-button is-active" type="button" data-theme-option="aurora">1</button>
+            <button class="control-button" type="button" data-theme-option="studio">2</button>
+            <button class="control-button" type="button" data-theme-option="night">3</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      
+    <div class="real-demo">
+      <div class="real-shell crm-workspace">
+        <aside class="crm-panel crm-sidebar">
+          <div class="stack">
+            <strong>Retail Ops</strong>
+            <p class="real-copy" data-i18n data-en="Inventory, orders, branches, and daily store tasks." data-ar="مخزون وطلبات وفروع ومهام يومية.">Inventory, orders, branches, and daily store tasks.</p>
+          </div>
+          <button class="side-button is-active" type="button" data-tab-target="workspace"><span data-i18n data-en="Board" data-ar="اللوحة">Board</span></button>
+          <button class="side-button" type="button" data-tab-target="reports"><span data-i18n data-en="Reports" data-ar="التقارير">Reports</span></button>
+          <button class="side-button" type="button" data-tab-target="settings"><span data-i18n data-en="Rules" data-ar="القواعد">Rules</span></button>
+        </aside>
+        <main class="stack">
+          <section class="crm-panel stack">
+            <span class="eyebrow" data-i18n data-en="Retail operations" data-ar="تشغيل تجزئة">Retail operations</span>
+            <h1 class="real-title" data-i18n data-en="See branch issues before stockouts hit sales." data-ar="شاهد مشاكل الفروع قبل أن يؤثر نفاد المخزون على البيع.">See branch issues before stockouts hit sales.</h1>
+            <p class="real-copy" data-i18n data-en="A board for orders, fast inventory signals, and delivery status with daily summaries for management." data-ar="لوحة متابعة للطلبات، المخزون السريع، وحالة التوصيل مع ملخص يومي للإدارة.">A board for orders, fast inventory signals, and delivery status with daily summaries for management.</p>
+            
+  <div class="crm-stats">
+    
+          <article class="crm-stat">
+            <strong>27%</strong>
+            <span class="real-copy" data-i18n data-en="faster order closure" data-ar="تحسن في سرعة إقفال الطلب">faster order closure</span>
+          </article>
+        
+          <article class="crm-stat">
+            <strong>3</strong>
+            <span class="real-copy" data-i18n data-en="order sources unified" data-ar="مصادر طلبات تحت لوحة واحدة">order sources unified</span>
+          </article>
+        
+          <article class="crm-stat">
+            <strong>1</strong>
+            <span class="real-copy" data-i18n data-en="daily executive snapshot" data-ar="ملخص يومي واضح">daily executive snapshot</span>
+          </article>
+        
+  </div>
+
+          </section>
+
+          <section class="app-view crm-view-grid" data-app-view="workspace">
+            <div class="crm-panel stack">
+              <div class="section-head">
+                <h2 class="section-title" data-i18n data-en="Store board" data-ar="لوحة الفروع">Store board</h2>
+                <p class="real-copy" data-i18n data-en="We grouped the inputs into one status board with light alerts around what needed intervention." data-ar="قمنا بتجميع المدخلات في لوحة حالة موحدة مع تنبيهات بسيطة لما يحتاج تدخلًا.">We grouped the inputs into one status board with light alerts around what needed intervention.</p>
+              </div>
+              <div class="pipeline-board">
+        <div class="pipeline-stage">
+          <div class="crm-stage-head">
+            <strong data-i18n data-en="Low stock" data-ar="مخزون منخفض">Low stock</strong>
+            <span class="status">1</span>
+          </div>
+          
+                <button class="lead-card is-active" type="button" data-lead-card data-name="SKU-281" data-project="Nasr City branch" data-source="POS" data-next="Transfer 20 units">
+                  <strong>SKU-281</strong>
+                  <span class="real-copy">Nasr City branch</span>
+                  <span class="lead-meta"><span>POS</span><span class="lead-score">Low</span></span>
+                </button>
+              
+        </div>
+      
+        <div class="pipeline-stage">
+          <div class="crm-stage-head">
+            <strong data-i18n data-en="Transfer" data-ar="تحويل">Transfer</strong>
+            <span class="status">2</span>
+          </div>
+          
+                <button class="lead-card" type="button" data-lead-card data-name="SKU-155" data-project="Maadi branch" data-source="Webhook" data-next="Approve transfer">
+                  <strong>SKU-155</strong>
+                  <span class="real-copy">Maadi branch</span>
+                  <span class="lead-meta"><span>Webhook</span><span class="lead-score">Open</span></span>
+                </button>
+              
+                <button class="lead-card" type="button" data-lead-card data-name="Return batch" data-project="Online orders" data-source="Support" data-next="Quality check">
+                  <strong>Return batch</strong>
+                  <span class="real-copy">Online orders</span>
+                  <span class="lead-meta"><span>Support</span><span class="lead-score">Due</span></span>
+                </button>
+              
+        </div>
+      
+        <div class="pipeline-stage">
+          <div class="crm-stage-head">
+            <strong data-i18n data-en="Done" data-ar="تم">Done</strong>
+            <span class="status">1</span>
+          </div>
+          
+                <button class="lead-card" type="button" data-lead-card data-name="Daily cash" data-project="October branch" data-source="Manager" data-next="Archive close">
+                  <strong>Daily cash</strong>
+                  <span class="real-copy">October branch</span>
+                  <span class="lead-meta"><span>Manager</span><span class="lead-score">Done</span></span>
+                </button>
+              
+        </div>
+      </div>
+            </div>
+            <aside class="crm-panel stack">
+              <h2 class="card-title" data-i18n data-en="Store item" data-ar="عنصر الفرع">Store item</h2>
+              <div class="lead-detail">
+                <strong data-lead-name>SKU-281</strong>
+                <div class="contact-line"><span><span data-i18n data-en="Record" data-ar="السجل">Record</span></span><strong data-lead-project>Nasr City branch</strong></div>
+                <div class="contact-line"><span><span data-i18n data-en="Source" data-ar="المصدر">Source</span></span><strong data-lead-source>POS</strong></div>
+                <div class="contact-line"><span><span data-i18n data-en="Next" data-ar="التالي">Next</span></span><strong data-lead-next>Transfer 20 units</strong></div>
+              </div>
+              <form class="stack" data-demo-form>
+                <input class="crm-input" type="text" placeholder="Add stock note" data-placeholder-en="Add stock note" data-placeholder-ar="أضف ملاحظة مخزون">
+                <button class="button" type="submit"><span data-i18n data-en="Save update" data-ar="حفظ التحديث">Save update</span></button>
+                <div class="form-result" data-result-en="Request captured. The interface updated the sample workflow." data-result-ar="تم تسجيل الطلب وتحديث مسار التجربة." data-form-result hidden></div>
+              </form>
+            </aside>
+          </section>
+
+          <section class="app-view crm-panel stack" data-app-view="reports" hidden>
+            <h2 class="section-title" data-i18n data-en="Operations performance" data-ar="أداء التشغيل">Operations performance</h2>
+            <div class="chart-card"><span style="height: 64%;"></span><span style="height: 48%;"></span><span style="height: 72%;"></span><span style="height: 86%;"></span><span style="height: 59%;"></span><span style="height: 93%;"></span></div>
+            
+  <div class="feature-grid">
+    
+          <article class="interactive-card">
+            <span class="tag">01</span>
+            <p class="real-copy" data-i18n data-en="Faster day-to-day order handling." data-ar="إدارة أسرع للطلبات اليومية.">Faster day-to-day order handling.</p>
+          </article>
+        
+          <article class="interactive-card">
+            <span class="tag">02</span>
+            <p class="real-copy" data-i18n data-en="Fewer unnoticed delays." data-ar="تقليل التأخير غير الملاحظ.">Fewer unnoticed delays.</p>
+          </article>
+        
+          <article class="interactive-card">
+            <span class="tag">03</span>
+            <p class="real-copy" data-i18n data-en="Clearer signals around operating pressure points." data-ar="إشارات أوضح لنقاط الضغط التشغيلية.">Clearer signals around operating pressure points.</p>
+          </article>
+        
+  </div>
+
+          </section>
+
+          <section class="app-view crm-panel stack" data-app-view="settings" hidden>
+            <h2 class="section-title" data-i18n data-en="Automation rules" data-ar="قواعد الأتمتة">Automation rules</h2>
+            
+  <div class="feature-grid">
+    
+          <article class="interactive-card">
+            <span class="tag">01</span>
+            <p class="real-copy" data-i18n data-en="Create transfer tasks when branch stock drops below threshold." data-ar="إنشاء مهام تحويل عند نزول مخزون الفرع عن الحد.">Create transfer tasks when branch stock drops below threshold.</p>
+          </article>
+        
+          <article class="interactive-card">
+            <span class="tag">02</span>
+            <p class="real-copy" data-i18n data-en="Highlight branches missing daily closing reports." data-ar="إظهار الفروع التي لم ترسل تقرير الإغلاق.">Highlight branches missing daily closing reports.</p>
+          </article>
+        
+          <article class="interactive-card">
+            <span class="tag">03</span>
+            <p class="real-copy" data-i18n data-en="Sync online returns with inventory before restock." data-ar="مزامنة مرتجعات الأونلاين قبل إعادة التخزين.">Sync online returns with inventory before restock.</p>
+          </article>
+        
+  </div>
+
+          </section>
+        </main>
+      </div>
+    </div>
+  
+    </main>
+    <footer class="footer">
+      <div class="shell footer-inner">
+        <p class="muted">© <span data-year></span> Retail operations dashboard.</p>
+        <div class="inline-actions">
+          <a class="button-secondary" href="mailto:hello@popwam.com">Email</a>
+          <a class="button-secondary" href="tel:+201033662881">Call</a>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>

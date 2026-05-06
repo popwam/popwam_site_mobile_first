@@ -1,0 +1,6 @@
+<svg width="180" height="52" viewBox="0 0 180 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="52" height="52" rx="18" fill="#0F1115"/>
+  <path d="M15 18.5C15 16.0147 17.0147 14 19.5 14H30.5C35.1944 14 39 17.8056 39 22.5C39 27.1944 35.1944 31 30.5 31H22.5V38H15V18.5Z" fill="#D7FF64"/>
+  <path d="M22.5 24.5H29.5C30.8807 24.5 32 23.3807 32 22C32 20.6193 30.8807 19.5 29.5 19.5H22.5V24.5Z" fill="#0F1115"/>
+  <text x="64" y="31" font-family="Manrope, Arial, sans-serif" font-size="24" font-weight="800" fill="#0F1115">POPWAM</text>
+</svg>

@@ -1,10 +1,42 @@
 {
+  "id": "/",
   "name": "POPWAM",
   "short_name": "POPWAM",
+  "description": "Mobile-first websites, funnels, internal systems, apps, and automation demos by POPWAM.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "lang": "ar",
+  "dir": "rtl",
   "background_color": "#f5f6f0",
   "theme_color": "#0f1115",
+  "categories": [
+    "business",
+    "productivity",
+    "developer"
+  ],
+  "shortcuts": [
+    {
+      "name": "Services",
+      "short_name": "Services",
+      "url": "/services/"
+    },
+    {
+      "name": "Portfolio",
+      "short_name": "Work",
+      "url": "/portfolio/"
+    },
+    {
+      "name": "Demos",
+      "short_name": "Demos",
+      "url": "/demos/"
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "url": "/contact/"
+    }
+  ],
   "icons": [
     {
       "src": "/assets/img/favicon.svg",
